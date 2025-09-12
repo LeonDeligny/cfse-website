@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Calculator, Zap } from "lucide-react";
+import { ArrowRight, Calculator, Lightbulb, Globe } from "lucide-react";
 import heroSimulationImg from "@/assets/hero-simulation.jpg";
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Expert numerical simulation services for fluid mechanics and structural mechanics engineering problems since 1999
+            Expert numerical simulation services for fluid mechanics and structural mechanics engineering problems
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -51,7 +51,7 @@ const Hero = () => {
             
             <div className="flex flex-col items-center text-center animate-slide-up animation-delay-500">
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-4">
-                <Zap className="h-8 w-8 text-white" />
+                <Lightbulb className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">Expert Solutions</h3>
               <p className="text-white/80 text-sm">25+ years of experience in engineering consultancy</p>
@@ -59,10 +59,10 @@ const Hero = () => {
             
             <div className="flex flex-col items-center text-center animate-slide-up animation-delay-700">
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-4">
-                <ArrowRight className="h-8 w-8 text-white" />
+                <Globe className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">EPFL Innovation</h3>
-              <p className="text-white/80 text-sm">Located at EPFL Innovation Park, Lausanne</p>
+              <h3 className="text-lg font-semibold text-white mb-2">International Collaboration</h3>
+              <p className="text-white/80 text-sm">10+ years of collaboration with manufacturers and aerospace centers</p>
             </div>
           </div>
         </div>

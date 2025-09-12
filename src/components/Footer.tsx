@@ -28,10 +28,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2 text-white/80 text-sm">
-              <li>Computational Fluid Dynamics (CFD)</li>
-              <li>Finite Element Analysis (FEM)</li>
-              <li>Heat Transfer Analysis</li>
-              <li>Multiphysics Simulation</li>
+              <li>Aerodynamics</li>
+              <li>Aerothermodynamics</li>
+              <li>Fluid Structure Interaction</li>
+              <li>Tailored Solutions</li>
               <li>Engineering Consulting</li>
               <li>Custom Solutions</li>
             </ul>

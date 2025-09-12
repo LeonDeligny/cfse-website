@@ -2,82 +2,72 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { 
-  Thermometer, 
-  Waves, 
+  Rocket, 
   Building2, 
   Zap, 
   Wind,
   Factory,
   ArrowRight,
-  ExternalLink
+  ExternalLink,
+  Satellite,
 } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Industrial Heat Exchanger Optimization",
-      category: "Thermal Analysis",
-      description: "Comprehensive CFD analysis and optimization of a shell-and-tube heat exchanger for a chemical processing plant, resulting in 25% improved efficiency.",
-      technologies: ["CFD", "Heat Transfer", "Optimization"],
-      icon: Thermometer,
+      title: "Mars Entry and Descent System",
+      category: "Aerothermodynamics",
+      description: "Simulation on several points along the trajectory on the descent to Mars. Reconstructing wind tunnel tests. Perform dynamic stability analysis of the transonic inflatable breaking unit.",
+      technologies: ["CFD", "Heat Transfer", "Static and Dynamic Stability"],
+      icon: Satellite,
       results: [
-        "25% efficiency improvement",
-        "15% reduction in pressure drop",
-        "Optimized baffle design"
+        "Confidential",
       ],
-      industry: "Chemical Processing"
+      industry: "Aerospatial Engineering"
     },
     {
-      title: "Turbomachinery Flow Analysis",
-      category: "Fluid Dynamics",
-      description: "Advanced turbulent flow simulation for centrifugal pump impeller design, optimizing performance across multiple operating conditions.",
-      technologies: ["Turbulence Modeling", "CFD", "Performance Analysis"],
-      icon: Waves,
+      title: "Re-usable Launch vehicles",
+      category: "Aerodynamics",
+      description: "Transonic and supersonic aerodynamic analysis for re-usable launch vehicles, with a focus on aerodynamics forces and grid-fins shape optimization.",
+      technologies: ["Shape Optimization", "CFD", "Static Stability", "Chimera mesh"],
+      icon: Rocket,
       results: [
-        "18% increase in hydraulic efficiency",
-        "Reduced cavitation risk",
-        "Extended operating range"
+        "Confidential",
       ],
-      industry: "Energy & Power"
+      industry: "Aerospatial Engineering"
     },
     {
-      title: "High-Rise Building Wind Load Analysis",
-      category: "Structural Mechanics",
-      description: "Detailed FEM analysis of wind loads on a 40-story building structure, ensuring compliance with Swiss building codes and optimal design.",
-      technologies: ["FEM", "Wind Load Analysis", "Structural Dynamics"],
+      title: "Morphing wing for sustainable aviation",
+      category: "Aerodynamics",
+      description: "Development of a morphing wing concept to enhance lift-to-drag performance and reduce noise during takeoff, cruise and landing.",
+      technologies: ["Turbulence flow modelling", "Spectral Analysis", "Deforming mesh"],
       icon: Building2,
       results: [
-        "Code compliance verification",
-        "Optimized structural design",
-        "Cost reduction of 12%"
+        "TODO",
       ],
-      industry: "Construction"
+      industry: "Civil Aviation"
     },
     {
-      title: "Electric Motor Thermal Management",
-      category: "Multiphysics",
-      description: "Coupled electromagnetic-thermal-fluid analysis for high-performance electric motor cooling system design and optimization.",
-      technologies: ["Multiphysics", "Thermal Management", "Electromagnetic Analysis"],
+      title: "Collaborative system of systems",
+      category: "Aerodynamics",
+      description: "Development of a collaborative system of systems for enhanced aircraft performance and safety.",
+      technologies: ["..."],
       icon: Zap,
       results: [
-        "30°C temperature reduction",
-        "Improved motor efficiency",
-        "Enhanced reliability"
+        "...",
       ],
-      industry: "Automotive"
+      industry: "Civil Aviation"
     },
     {
-      title: "HVAC System Optimization",
-      category: "Environmental Engineering",
-      description: "Comprehensive airflow analysis and optimization of HVAC systems for a pharmaceutical clean room facility, ensuring precise environmental control.",
-      technologies: ["Airflow Analysis", "Contamination Modeling", "CFD"],
+      title: "F/A 18",
+      category: "Fluid Structure Interaction",
+      description: "The maneuver spectrum of the Swiss usage of this aircraft is about 3 times more severe than the US Navy design. As a consequence, it is crucial to perform advanced fluid structure simulation to ensure structural integrity.",
+      technologies: ["Static Wing Deformation", "Vertical tail buffeting", "Aeroelastic Instability"],
       icon: Wind,
       results: [
-        "99.97% particle filtration efficiency",
-        "20% energy savings",
-        "Uniform temperature distribution"
+        "ULTRA CONFIDENTIAL",
       ],
-      industry: "Pharmaceutical"
+      industry: "Military & Defense Aviation"
     },
     {
       title: "Manufacturing Process Optimization",
@@ -192,7 +182,7 @@ const Projects = () => {
         <div className="bg-primary rounded-lg p-8 md:p-12 mb-16">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
             <div className="animate-fade-in">
-              <div className="text-3xl md:text-4xl font-bold mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">20+</div>
               <div className="text-sm md:text-base text-white/90">Projects Completed</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
@@ -200,12 +190,12 @@ const Projects = () => {
               <div className="text-sm md:text-base text-white/90">Years Experience</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <div className="text-3xl md:text-4xl font-bold mb-2">15+</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">5+</div>
               <div className="text-sm md:text-base text-white/90">Industries Served</div>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
-              <div className="text-3xl md:text-4xl font-bold mb-2">98%</div>
-              <div className="text-sm md:text-base text-white/90">Client Satisfaction</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">12+</div>
+              <div className="text-sm md:text-base text-white/90">Collaborators</div>
             </div>
           </div>
         </div>

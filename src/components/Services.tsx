@@ -1,40 +1,40 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
-  Waves, 
   Building2, 
-  Thermometer, 
   Cog, 
   BarChart3, 
   Zap,
-  ArrowRight
+  ArrowRight,
+  Plane,
+  Rocket,
 } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Waves,
-      title: "Computational Fluid Dynamics (CFD)",
-      description: "Advanced flow analysis, turbulence modeling, and multi-phase flow simulations for complex engineering systems.",
-      features: ["Turbulent flow analysis", "Heat and mass transfer", "Multi-phase systems", "Flow optimization"]
+      icon: Plane,
+      title: "Aerodynamics",
+      description: "Improve the performance of your complex engineering systems through:",
+      features: ["Subsonic to low-supersonic flow analysis", "Lift and Drag prediction", "Static and Dynamic Stability", "Turbulent flow analysis", "Active flow control"]
+    },
+    {
+      icon: Rocket,
+      title: "Aerothermodynamics",
+      description: "Design thermal protection systems for re-entry vehicles:",
+      features: ["Hypersonic flow simulations", "Wall-Heat flux calculations", "Radiation effects", "Thermal protection design"]
     },
     {
       icon: Building2,
-      title: "Structural Analysis (FEM)",
-      description: "Comprehensive finite element analysis for static and dynamic structural problems across various materials.",
+      title: "Fluid Structure Interaction",
+      description: "Ensure the integrity of your systems' structure under fluid loads:",
       features: ["Static stress analysis", "Dynamic response", "Modal analysis", "Fatigue assessment"]
     },
     {
-      icon: Thermometer,
-      title: "Heat Transfer Analysis",
-      description: "Thermal modeling and analysis for heat exchangers, cooling systems, and thermal management applications.",
-      features: ["Conduction analysis", "Convection modeling", "Radiation effects", "Thermal optimization"]
-    },
-    {
       icon: Cog,
-      title: "Multiphysics Simulation",
-      description: "Coupled analysis combining fluid flow, heat transfer, and structural mechanics for complex engineering problems.",
-      features: ["Fluid-structure interaction", "Thermal-structural coupling", "Multi-domain analysis", "System integration"]
+      title: "Tailored Solutions",
+      description: "Customized simulation solutions for specific engineering needs.",
+      features: ["Biofluid Dynamics", "Pumps", "High-speed trains", "Civil Engineering", ]
     },
     {
       icon: BarChart3,
@@ -101,24 +101,6 @@ const Services = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className="bg-primary rounded-lg p-8 md:p-12 text-center text-white">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Ready to Start Your Project?
-          </h3>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Let our experienced team help you solve your most challenging engineering problems 
-            with advanced numerical simulation techniques.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="bg-white text-primary hover:bg-white/90">
-              Get a Quote
-            </Button>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary">
-              Schedule Consultation
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );

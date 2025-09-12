@@ -11,7 +11,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A leading consultancy company specializing in numerical simulation of engineering problems, 
-            founded in 1999 and based at EPFL Innovation Park.
+            founded in 1999 and based in Lausanne, Switzerland.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const About = () => {
             <Card className="p-6 gradient-card border-card-border transition-smooth hover:shadow-glow">
               <div className="flex items-center mb-4">
                 <Award className="h-8 w-8 text-primary mr-3" />
-                <h4 className="text-lg font-semibold text-card-foreground">Innovation</h4>
+                <h4 className="text-lg font-semibold text-card-foreground">Collaboration</h4>
               </div>
               <p className="text-lg font-bold text-primary">EPFL</p>
               <p className="text-muted-foreground text-sm">Research Connection</p>
