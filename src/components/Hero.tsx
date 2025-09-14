@@ -3,6 +3,19 @@ import { ArrowRight, Calculator, Lightbulb, Globe } from "lucide-react";
 import heroSimulationImg from "@/assets/hero-simulation.jpg";
 
 const Hero = () => {
+  const handleExploreServices = () => {
+    const section = document.getElementById("services");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleViewProjects = () => {
+    const section = document.getElementById("projects");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient overlay */}
@@ -29,17 +42,27 @@ const Hero = () => {
             Expert numerical simulation services for fluid mechanics and structural mechanics engineering problems
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="animate-slide-up">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <Button
+              variant="hero"
+              size="lg"
+              className="animate-slide-up"
+              onClick={handleExploreServices}
+            >
               Explore Our Services
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-primary animate-slide-up animation-delay-200">
+            <Button
+              variant="outline"
+              size="lg"
+              className="animate-slide-up animation-delay-200 font-bold text-black border-black hover:font-bold"
+              onClick={handleViewProjects}
+            >
               View Projects
             </Button>
           </div>
 
-          {/* Key features */}
+           {/* Key features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="flex flex-col items-center text-center animate-slide-up animation-delay-300">
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-4">

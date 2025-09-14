@@ -27,17 +27,31 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <Card className="p-6 gradient-card border-card-border">
-              <div className="flex items-start space-x-4">
-                <div className="bg-primary/10 rounded-lg p-3">
+              <div className="flex items-start gap-4">
+                <div className="bg-primary/10 rounded-lg p-3 flex-shrink-0">
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-card-foreground mb-2">Our Location</h3>
-                  <p className="text-muted-foreground">
-                    EPFL Innovation Park<br />
-                    1015 Lausanne<br />
-                    Switzerland
-                  </p>
+                <div className="flex flex-row w-full items-start gap-4">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg font-semibold text-card-foreground mb-2">Our Location</h3>
+                    <p className="text-muted-foreground">
+                      EPFL Innovation Park – Building A<br />
+                      1015 Lausanne<br />
+                      Switzerland
+                    </p>
+                  </div>
+                  <div className="rounded-lg overflow-hidden border border-border shadow-sm w-48 min-w-[160px] h-32">
+                    <iframe
+                      title="EPFL Innovation Park – Building A Map"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5491.025719628417!2d6.5602468!3d46.5177524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c30fdc0000001%3A0x5c17aaeec5468263!2sCFS%20Engineering!5e0!3m2!1sen!2sch!4v1757872612016!5m2!1sen!2sch"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen={false}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -77,7 +91,14 @@ const Contact = () => {
                     Ready to discuss your engineering simulation project? 
                     We'd love to hear about your challenges and how we can help.
                   </p>
-                  <Button variant="professional" size="sm">
+                  <Button
+                    variant="professional"
+                    size="sm"
+                    onClick={() => {
+                      window.location.href =
+                        'mailto:contact@cfse.ch';
+                    }}
+                  >
                     Send Message
                     <Mail className="ml-2 h-4 w-4" />
                   </Button>

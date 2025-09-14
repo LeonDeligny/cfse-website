@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
+import People from "./components/People";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
@@ -21,6 +22,7 @@ const HomePage = () => (
     <About />
     <Services />
     <Projects />
+    <People />
     <Contact />
     <Footer />
   </div>

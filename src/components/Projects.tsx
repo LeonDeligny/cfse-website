@@ -86,9 +86,9 @@ const Projects = () => {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Thermal Analysis": "bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-300",
-      "Fluid Dynamics": "bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-300",
-      "Structural Mechanics": "bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-300",
+      "Aerodynamics": "bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-300",
+      "Aerothermodynamics": "bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-300",
+      "Fluid Structure Interaction": "bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-300",
       "Multiphysics": "bg-purple-100 text-purple-800 dark:bg-purple-900/20 dark:text-purple-300",
       "Environmental Engineering": "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/20 dark:text-cyan-300",
       "Industrial Engineering": "bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-300"
@@ -122,7 +122,7 @@ const Projects = () => {
                 <div className="bg-primary/10 rounded-lg p-3 group-hover:bg-primary/20 transition-smooth">
                   <project.icon className="h-6 w-6 text-primary" />
                 </div>
-                <Badge className={getCategoryColor(project.category)}>
+                <Badge className={getCategoryColor(project.category) + " pointer-events-none select-none"}>
                   {project.category}
                 </Badge>
               </div>
@@ -210,12 +210,16 @@ const Projects = () => {
             into successful solutions with our expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="default" size="lg">
+            <Button
+              variant="default"
+              size="lg"
+              onClick={() => {
+                window.location.href =
+                  'mailto:contact@cfse.ch';
+              }}
+            >
               Discuss Your Project
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button variant="outline" size="lg">
-              View Case Studies
             </Button>
           </div>
         </div>
