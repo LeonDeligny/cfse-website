@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import cfseLogoImg from "@/assets/cfse-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const logoRef = useRef<HTMLImageElement>(null);
 
   const navItems = [
     { label: "Home", href: "#home" },
@@ -21,11 +23,31 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img
-              src={cfseLogoImg}
-              alt="CFS Engineering"
-              className="h-8 w-auto"
-            />
+            <button
+              onClick={() => {
+                const aboutSection = document.getElementById('about');
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                  window.location.hash = '#about';
+                }
+                if (logoRef.current) {
+                  // You can use logoRef.current here if needed
+                  // For example: logoRef.current.classList.add('clicked');
+                }
+              }}
+              className="focus:outline-none group"
+              aria-label="Go to About section"
+              style={{ background: 'none', border: 'none', padding: 0 }}
+            >
+              <img
+                ref={logoRef}
+                src={cfseLogoImg}
+                alt="CFS Engineering"
+                className="h-10 w-auto transition duration-200 group-hover:brightness-110 group-hover:contrast-125 group-active:scale-95"
+                style={{ filter: 'none' }}
+              />
+            </button>
           </div>
 
           {/* Desktop Navigation */}

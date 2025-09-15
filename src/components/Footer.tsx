@@ -2,7 +2,7 @@ import cfseLogoImg from "@/assets/cfse-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-12">
+    <footer className="bg-primary text-white py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}

@@ -85,7 +85,7 @@ const Hero = () => {
                 <Globe className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">International Collaboration</h3>
-              <p className="text-white/80 text-sm">10+ years of collaboration with manufacturers and aerospace centers</p>
+              <p className="text-white/80 text-sm">Collaborated with 10+ manufacturers, institutes and aerospace centers</p>
             </div>
           </div>
         </div>

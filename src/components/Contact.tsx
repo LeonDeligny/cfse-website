@@ -188,17 +188,6 @@ const Contact = () => {
               </div>
             </Card>
           </div>
-
-          {/* Collaborators Logos Section */}
-          <div className="text-center mb-16">
-            <h3 className="text-2xl font-semibold text-foreground mb-6">Our Collaborators</h3>
-            <div className="flex flex-wrap justify-center gap-8 items-center">
-              <img src="/collaborators/dlr.svg" alt="DLR" className="h-16 w-auto object-contain" />
-              {/* Add more logos here, e.g. ESA, EPFL, etc. */}
-            </div>
-          </div>
-
-
         </div>
       </div>
     </section>

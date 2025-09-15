@@ -37,6 +37,14 @@ const People = () => {
       description: "Romain leads the R&D for the live skin concept within the Horizon Europe BEALIVE project. His work focuses on simulating unsteady flows on a Airbus A320's airfoil using flapping actuators to enhance aerodynamic performance through active flow control.",
       role: "Active Flow Control Researcher",
       experience: "EU Project Lead"
+    },
+    {
+      name: "Leon Deligny",
+      photo: "/team/leon-deligny.jpg",
+      linkedin: "https://www.linkedin.com/in/leon-deligny/",
+      description: "Leon is reponsible for the development of Baspl3 (post-processing visualization tool), the fluid structure code for Smart Memory Alloys (SMAs), CFSE's website and the FSCON spatial coupling tool.",
+      role: "Scientific Collaborator",
+      experience: "Machine Learning Scientist"
     }
   ];
 

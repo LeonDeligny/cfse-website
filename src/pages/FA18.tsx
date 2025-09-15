@@ -7,6 +7,12 @@ const FA18 = () => (
             <p className="text-lg text-muted-foreground mb-8">
                 The maneuver spectrum of the Swiss usage of this aircraft is about 3 times more severe than the US Navy design. As a consequence, it is crucial to perform advanced fluid structure simulation to ensure structural integrity.
             </p>
+            <img
+                src="/projectimages/fa18.jpeg"
+                alt="F/A-18 Aircraft"
+                className="w-full max-h-96 object-cover rounded-lg shadow mb-8"
+                style={{ objectPosition: 'center' }}
+            />
             <div className="mt-8">
                 <button className="text-primary hover:underline" onClick={() => { window.location.href = '/#projects'; }}>
                     ← Back to Projects

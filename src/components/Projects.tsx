@@ -19,12 +19,21 @@ const Projects = () => {
   const navigate = useNavigate();
   const projects = [
     {
+      title: "Morphing Wings for Sustainable Aviation",
+      category: "Aerodynamics",
+      description: "Development of a morphing wing concept to enhance lift-to-drag performance and reduce noise during takeoff, cruise and landing.",
+      technologies: ["Turbulence flow modelling", "Spectral Analysis", "Deforming mesh"],
+      icon: Leaf,
+      status: "Ongoing",
+      industry: "Civil Aviation"
+    },
+    {
       title: "Mars Entry and Descent System",
       category: "Aerothermodynamics",
       description: "Simulation on several points along the trajectory on the descent to Mars. Reconstructing wind tunnel tests. Perform dynamic stability analysis of the transonic inflatable breaking unit.",
       technologies: ["CFD", "Heat Transfer", "Static and Dynamic Stability"],
       icon: Satellite,
-      status: "Finished",
+      status: "Ongoing",
       industry: "Aerospatial Engineering"
     },
     {
@@ -37,19 +46,10 @@ const Projects = () => {
       industry: "Aerospatial Engineering"
     },
     {
-      title: "Morphing Wings for Sustainable Aviation",
-      category: "Aerodynamics",
-      description: "Development of a morphing wing concept to enhance lift-to-drag performance and reduce noise during takeoff, cruise and landing.",
-      technologies: ["Turbulence flow modelling", "Spectral Analysis", "Deforming mesh"],
-      icon: Leaf,
-      status: "Ongoing",
-      industry: "Civil Aviation"
-    },
-    {
       title: "Collaborative Systems of Systems",
       category: "Aerodynamics",
-      description: "Development of a Collaborative Systems of Systems for enhanced aircraft performance and safety.",
-      technologies: ["..."],
+      description: "COLOSSUS is developing a novel system-of-systems design methodology to optimize aircraft, their operations, and business models simultaneously. The project will apply this method to intermodal transport and wildfire-fighting, and then openly publish its solutions, methods, and tools to benefit research and industry.",
+      technologies: ["Wildfire aircrafts Stability", "Shape Optimization"],
       icon: Network,
       status: "Ongoing",
       industry: "Civil Aviation"
@@ -64,13 +64,13 @@ const Projects = () => {
       industry: "Military & Defense Aviation"
     },
     {
-      title: "Manufacturing Process Optimization",
-      category: "Industrial Engineering",
-      description: "Multi-phase flow simulation and heat transfer analysis for optimizing injection molding processes in automotive component manufacturing.",
-      technologies: ["Multi-phase Flow", "Process Optimization", "Heat Transfer"],
+      title: "Software Development",
+      category: "In house software development",
+      description: "Development and maintenance of advanced engineering software tools for simulation, visualization and design (CFD solvers, mesh generators...). Our work supports both internal research and external client projects, ensuring robust, scalable, and user-friendly solutions for the aerospace and industrial sectors.",
+      technologies: ["NSMB Solver", "Baspl3", "CEASIOMpy"],
       icon: Factory,
-      status: "Finished",
-      industry: "Manufacturing"
+      status: "Ongoing",
+      industry: "In house software development"
     }
   ];
 
@@ -90,7 +90,7 @@ const Projects = () => {
   const marsDescription = `Since May 2025, CFS Engineering has been participating in an ESA-funded project focused on the development of a Mars Entry and Descent System. CFD simulations will be performed at points throughout the trajectories. This will provide a complete aerodynamic database, showing variation with Mach and angle of attack. CFS Engineering will reconstruct wind tunnel tests and will rebuild the T-IBU dynamic stability test at high subsonic/transonic conditions.`;
 
   return (
-    <section id="projects" className="py-20 bg-background">
+    <section id="projects" className="py-1 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -177,8 +177,8 @@ const Projects = () => {
                       case "F/A 18":
                         navigate("/projects/fa18");
                         break;
-                      case "Manufacturing Process Optimization":
-                        navigate("/projects/manufacturing-optimization");
+                      case "Software Development":
+                        navigate("/projects/software-development");
                         break;
                       default:
                         break;
