@@ -12,6 +12,12 @@ import People from "./components/People";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import MarsEntryDescent from "./pages/MarsEntryDescent";
+import ReusableLaunchVehicles from "./pages/ReusableLaunchVehicles";
+import MorphingWing from "./pages/MorphingWing";
+import CollaborativeSystems from "./pages/CollaborativeSystems";
+import FA18 from "./pages/FA18";
+import ManufacturingOptimization from "./pages/ManufacturingOptimization";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +42,12 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/projects/mars-entry-descent" element={<MarsEntryDescent />} />
+          <Route path="/projects/reusable-launch-vehicles" element={<ReusableLaunchVehicles />} />
+          <Route path="/projects/morphing-wing" element={<MorphingWing />} />
+          <Route path="/projects/collaborative-systems" element={<CollaborativeSystems />} />
+          <Route path="/projects/fa18" element={<FA18 />} />
+          <Route path="/projects/manufacturing-optimization" element={<ManufacturingOptimization />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

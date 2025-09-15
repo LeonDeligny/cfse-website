@@ -12,7 +12,7 @@ const Navigation = () => {
     { label: "Services", href: "#services" },
     { label: "Projects", href: "#projects" },
     { label: "People", href: "#people" },
-    { label: "Contact", href: "#contact" },
+    { label: "Summary", href: "#contact" },
   ];
 
   return (
@@ -21,9 +21,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img 
-              src={cfseLogoImg} 
-              alt="CFS Engineering" 
+            <img
+              src={cfseLogoImg}
+              alt="CFS Engineering"
               className="h-8 w-auto"
             />
           </div>
@@ -45,8 +45,12 @@ const Navigation = () => {
 
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <Button variant="default" size="sm">
-              Get Quote
+            <Button
+              variant="default"
+              size="sm"
+              asChild
+            >
+              <a href="mailto:contact@cfse.ch">Contact Us</a>
             </Button>
           </div>
 

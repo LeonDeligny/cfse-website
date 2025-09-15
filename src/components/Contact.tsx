@@ -1,10 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Globe, 
+import {
+  MapPin,
+  Mail,
+  Globe,
   Building,
   ExternalLink
 } from "lucide-react";
@@ -13,12 +12,13 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Contact Us
+            Summary
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to discuss your engineering simulation needs? Get in touch with our expert team 
+            Ready to discuss your engineering simulation needs? Get in touch with our expert team
             at EPFL Innovation Park.
           </p>
         </div>
@@ -64,12 +64,12 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-card-foreground mb-2">EPFL Connection</h3>
                   <p className="text-muted-foreground mb-3">
-                    Located at the Swiss Federal Institute of Technology Innovation Park, 
+                    Located at the Swiss Federal Institute of Technology Innovation Park,
                     connecting us to world-class research and development.
                   </p>
-                  <a 
-                    href="https://epfl-innovationpark.ch/" 
-                    target="_blank" 
+                  <a
+                    href="https://epfl-innovationpark.ch/"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-primary hover:text-primary-light transition-smooth"
                   >
@@ -88,7 +88,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-card-foreground mb-2">Get in Touch</h3>
                   <p className="text-muted-foreground mb-3">
-                    Ready to discuss your engineering simulation project? 
+                    Ready to discuss your engineering simulation project?
                     We'd love to hear about your challenges and how we can help.
                   </p>
                   <Button
@@ -113,7 +113,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-card-foreground mb-6">
                 Project Consultation
               </h3>
-              
+
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-medium text-card-foreground mb-3">What We Discuss:</h4>
@@ -165,9 +165,9 @@ const Contact = () => {
             <Card className="p-6 gradient-card border-card-border">
               <h3 className="text-lg font-semibold text-card-foreground mb-4">Quick Links</h3>
               <div className="space-y-3">
-                <a 
-                  href="http://www.epfl.ch" 
-                  target="_blank" 
+                <a
+                  href="http://www.epfl.ch"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-muted-foreground hover:text-primary transition-smooth"
                 >
@@ -175,9 +175,9 @@ const Contact = () => {
                   EPFL - Swiss Federal Institute of Technology
                   <ExternalLink className="ml-auto h-4 w-4" />
                 </a>
-                <a 
-                  href="https://epfl-innovationpark.ch/" 
-                  target="_blank" 
+                <a
+                  href="https://epfl-innovationpark.ch/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-muted-foreground hover:text-primary transition-smooth"
                 >
@@ -188,6 +188,17 @@ const Contact = () => {
               </div>
             </Card>
           </div>
+
+          {/* Collaborators Logos Section */}
+          <div className="text-center mb-16">
+            <h3 className="text-2xl font-semibold text-foreground mb-6">Our Collaborators</h3>
+            <div className="flex flex-wrap justify-center gap-8 items-center">
+              <img src="/collaborators/dlr.svg" alt="DLR" className="h-16 w-auto object-contain" />
+              {/* Add more logos here, e.g. ESA, EPFL, etc. */}
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>

@@ -34,7 +34,7 @@ const People = () => {
       name: "Romain Gauthier",
       photo: "/team/romain-gauthier.jpg",
       linkedin: "https://www.linkedin.com/in/romain-gauthier-436b44292/",
-      description: "Romain leads the R&D for the live skin concept within the Horizon Europe BEALIVE project. His work focuses on extending the NSMB CFD solver to simulate unsteady flows on airfoils and an Airbus A320, using flapping actuators to enhance aerodynamic performance through active flow control.",
+      description: "Romain leads the R&D for the live skin concept within the Horizon Europe BEALIVE project. His work focuses on simulating unsteady flows on a Airbus A320's airfoil using flapping actuators to enhance aerodynamic performance through active flow control.",
       role: "Active Flow Control Researcher",
       experience: "EU Project Lead"
     }
@@ -70,16 +70,16 @@ const People = () => {
   const TeamMemberCard = ({ member, isFormer = false }: { member: any, isFormer?: boolean }) => (
     <Card className="p-6 gradient-card border-card-border transition-smooth hover:shadow-glow hover:-translate-y-1 group">
       <div className="flex flex-col items-center text-center mb-4">
-       <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mb-4 overflow-hidden">
-            {member.photo ? (
-                <img
-                src={member.photo}
-                alt={member.name}
-                className="object-cover w-full h-full"
-                />
-            ) : (
-                <Users className="w-12 h-12 text-muted-foreground" />
-            )}
+        <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center mb-4 overflow-hidden">
+          {member.photo ? (
+            <img
+              src={member.photo}
+              alt={member.name}
+              className="object-cover w-full h-full"
+            />
+          ) : (
+            <Users className="w-12 h-12 text-muted-foreground" />
+          )}
         </div>
         <h3 className="text-xl font-semibold text-card-foreground mb-1">
           {member.name}
@@ -96,22 +96,22 @@ const People = () => {
           </Badge>
         )}
       </div>
-      
+
       <p className="text-muted-foreground text-sm leading-relaxed mb-4">
         {member.description}
       </p>
-      
+
       {member.linkedin && (
         <div className="flex justify-center">
-          <Button 
-            variant="outline" 
-            size="sm" 
+          <Button
+            variant="outline"
+            size="sm"
             className="w-full group-hover:border-primary group-hover:text-primary transition-smooth"
             asChild
           >
-            <a 
-              href={member.linkedin} 
-              target="_blank" 
+            <a
+              href={member.linkedin}
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center"
             >
@@ -130,10 +130,10 @@ const People = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Our People
+            The Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Meet the expert team behind CFS Engineering, bringing decades of combined experience 
+            Meet the expert team behind CFS Engineering, bringing decades of combined experience
             in computational fluid dynamics and structural mechanics.
           </p>
         </div>
@@ -144,7 +144,7 @@ const People = () => {
             <Users className="w-6 h-6 text-primary mr-3" />
             <h3 className="text-2xl font-semibold text-foreground">Current Team</h3>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {currentTeam.map((member, index) => (
               <TeamMemberCard key={index} member={member} />
@@ -153,9 +153,9 @@ const People = () => {
         </div>
 
         {/* Former Team Members Toggle */}
-        <div className="mb-16 flex flex-col items-center">
+        <div className="mb-2 flex flex-col items-center"> {/* reduced mb-8 to mb-2 for less space below toggle */}
           <button
-            className="flex items-center gap-2 text-primary font-medium hover:underline focus:outline-none mb-2"
+            className="flex items-center gap-2 text-primary font-medium hover:underline focus:outline-none mb-0" // mb-1 to mb-0 for less space under button
             onClick={() => setShowFormer((prev) => !prev)}
             aria-expanded={showFormer}
             aria-controls="former-team-section"
@@ -175,17 +175,16 @@ const People = () => {
           {showFormer && (
             <div
               id="former-team-section"
-              className="w-full mt-6"
+              className="w-full mt-1"
             >
-              <div className="flex items-center justify-center mb-8">
+              <div className="flex items-center justify-center mb-1"> {/* mb-8 to mb-4 */}
                 <Award className="w-6 h-6 text-accent-steel mr-3" />
                 <h3 className="text-2xl font-semibold text-foreground">Former Team Members</h3>
               </div>
-              <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-                We are grateful to our former colleagues who contributed significantly to our success 
+              <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto"> {/* mb-8 to mb-4 */}
+                We are grateful to our former colleagues who contributed significantly to our success
                 and continue to excel in their respective careers.
               </p>
-              
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {formerTeam.map((member, index) => (
                   <TeamMemberCard key={index} member={member} isFormer={true} />

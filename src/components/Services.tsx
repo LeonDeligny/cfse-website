@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Building2, 
-  Cog, 
-  BarChart3, 
+import {
+  Building2,
+  Cog,
+  BarChart3,
   Zap,
   ArrowRight,
   Plane,
@@ -34,7 +34,7 @@ const Services = () => {
       icon: Cog,
       title: "Tailored Solutions",
       description: "Customized simulation solutions for specific engineering needs.",
-      features: ["Biofluid Dynamics", "Pumps", "High-speed trains", "Civil Engineering", ]
+      features: ["Biofluid Dynamics", "Pumps", "High-speed trains", "Civil Engineering",]
     },
     {
       icon: BarChart3,
@@ -51,22 +51,22 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-background">
+    <section id="services" className="py-12 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive numerical simulation services combining advanced computational methods 
+            Comprehensive numerical simulation services combining advanced computational methods
             with decades of engineering expertise.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {services.map((service, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="p-6 gradient-card border-card-border transition-smooth hover:shadow-glow hover:-translate-y-1 group"
             >
               <div className="flex items-center mb-4">
@@ -75,11 +75,11 @@ const Services = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-card-foreground">{service.title}</h3>
               </div>
-              
+
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 {service.description}
               </p>
-              
+
               <ul className="space-y-2 mb-6">
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
@@ -88,10 +88,10 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-              
-              <Button 
-                variant="outline" 
-                size="sm" 
+
+              <Button
+                variant="outline"
+                size="sm"
                 className="w-full group-hover:border-primary group-hover:text-primary transition-smooth"
               >
                 Learn More

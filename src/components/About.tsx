@@ -73,7 +73,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Expertise Areas */}
+        {/* Expertise Areas
         <div className="bg-card rounded-lg p-8 shadow-md">
           <h3 className="text-2xl font-semibold text-foreground mb-6 text-center">Core Competencies</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -92,7 +92,7 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

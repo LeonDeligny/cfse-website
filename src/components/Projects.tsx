@@ -1,18 +1,22 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Rocket, 
-  Building2, 
-  Zap, 
-  Wind,
+import {
+  Rocket,
+  Leaf,
+  Network,
+  Plane,
   Factory,
-  ArrowRight,
-  ExternalLink,
   Satellite,
+  ArrowRight,
+  ExternalLink
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
+import { useState } from "react";
 
 const Projects = () => {
+  const navigate = useNavigate();
   const projects = [
     {
       title: "Mars Entry and Descent System",
@@ -20,42 +24,34 @@ const Projects = () => {
       description: "Simulation on several points along the trajectory on the descent to Mars. Reconstructing wind tunnel tests. Perform dynamic stability analysis of the transonic inflatable breaking unit.",
       technologies: ["CFD", "Heat Transfer", "Static and Dynamic Stability"],
       icon: Satellite,
-      results: [
-        "Confidential",
-      ],
+      status: "Finished",
       industry: "Aerospatial Engineering"
     },
     {
-      title: "Re-usable Launch vehicles",
+      title: "Re-usable Launch Vehicles",
       category: "Aerodynamics",
-      description: "Transonic and supersonic aerodynamic analysis for re-usable launch vehicles, with a focus on aerodynamics forces and grid-fins shape optimization.",
+      description: "Transonic and supersonic aerodynamic analysis for Re-usable Launch Vehicles, with a focus on aerodynamics forces and grid-fins shape optimization.",
       technologies: ["Shape Optimization", "CFD", "Static Stability", "Chimera mesh"],
       icon: Rocket,
-      results: [
-        "Confidential",
-      ],
+      status: "Ongoing",
       industry: "Aerospatial Engineering"
     },
     {
-      title: "Morphing wing for sustainable aviation",
+      title: "Morphing Wings for Sustainable Aviation",
       category: "Aerodynamics",
       description: "Development of a morphing wing concept to enhance lift-to-drag performance and reduce noise during takeoff, cruise and landing.",
       technologies: ["Turbulence flow modelling", "Spectral Analysis", "Deforming mesh"],
-      icon: Building2,
-      results: [
-        "TODO",
-      ],
+      icon: Leaf,
+      status: "Ongoing",
       industry: "Civil Aviation"
     },
     {
-      title: "Collaborative system of systems",
+      title: "Collaborative Systems of Systems",
       category: "Aerodynamics",
-      description: "Development of a collaborative system of systems for enhanced aircraft performance and safety.",
+      description: "Development of a Collaborative Systems of Systems for enhanced aircraft performance and safety.",
       technologies: ["..."],
-      icon: Zap,
-      results: [
-        "...",
-      ],
+      icon: Network,
+      status: "Ongoing",
       industry: "Civil Aviation"
     },
     {
@@ -63,10 +59,8 @@ const Projects = () => {
       category: "Fluid Structure Interaction",
       description: "The maneuver spectrum of the Swiss usage of this aircraft is about 3 times more severe than the US Navy design. As a consequence, it is crucial to perform advanced fluid structure simulation to ensure structural integrity.",
       technologies: ["Static Wing Deformation", "Vertical tail buffeting", "Aeroelastic Instability"],
-      icon: Wind,
-      results: [
-        "ULTRA CONFIDENTIAL",
-      ],
+      icon: Plane,
+      status: "Ongoing",
       industry: "Military & Defense Aviation"
     },
     {
@@ -75,26 +69,25 @@ const Projects = () => {
       description: "Multi-phase flow simulation and heat transfer analysis for optimizing injection molding processes in automotive component manufacturing.",
       technologies: ["Multi-phase Flow", "Process Optimization", "Heat Transfer"],
       icon: Factory,
-      results: [
-        "35% cycle time reduction",
-        "Improved part quality",
-        "Reduced material waste"
-      ],
+      status: "Finished",
       industry: "Manufacturing"
     }
   ];
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Aerodynamics": "bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-300",
-      "Aerothermodynamics": "bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-300",
-      "Fluid Structure Interaction": "bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-300",
+      "Aerodynamics": "bg-blue-300 text-black-800 dark:bg-blue-900/40 dark:text-blue-200",
+      "Aerothermodynamics": "bg-blue-100 text-black-800 dark:bg-blue-900/20 dark:text-blue-300",
+      "Fluid Structure Interaction": "bg-cyan-100 text-black-800 dark:bg-green-900/20 dark:text-green-300",
       "Multiphysics": "bg-purple-100 text-purple-800 dark:bg-purple-900/20 dark:text-purple-300",
-      "Environmental Engineering": "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/20 dark:text-cyan-300",
-      "Industrial Engineering": "bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-300"
+      "Industrial Engineering": "bg-orange-100 text-black-800 dark:bg-orange-900/20 dark:text-orange-300"
     };
     return colors[category as keyof typeof colors] || "bg-gray-100 text-gray-800";
   };
+
+  const [openMarsModal, setOpenMarsModal] = useState(false);
+
+  const marsDescription = `Since May 2025, CFS Engineering has been participating in an ESA-funded project focused on the development of a Mars Entry and Descent System. CFD simulations will be performed at points throughout the trajectories. This will provide a complete aerodynamic database, showing variation with Mach and angle of attack. CFS Engineering will reconstruct wind tunnel tests and will rebuild the T-IBU dynamic stability test at high subsonic/transonic conditions.`;
 
   return (
     <section id="projects" className="py-20 bg-background">
@@ -104,7 +97,7 @@ const Projects = () => {
             Our Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how our advanced numerical simulation expertise has helped clients 
+            Discover how our advanced numerical simulation expertise has helped clients
             solve complex engineering challenges across diverse industries.
           </p>
         </div>
@@ -112,8 +105,8 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {projects.map((project, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="p-6 gradient-card border-card-border transition-smooth hover:shadow-glow hover:-translate-y-1 group animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -131,7 +124,7 @@ const Projects = () => {
               <h3 className="text-lg font-semibold text-card-foreground mb-2 group-hover:text-primary transition-smooth">
                 {project.title}
               </h3>
-              
+
               <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                 {project.description}
               </p>
@@ -139,7 +132,7 @@ const Projects = () => {
               {/* Technologies */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech, techIndex) => (
-                  <span 
+                  <span
                     key={techIndex}
                     className="px-2 py-1 text-xs bg-secondary text-secondary-foreground rounded-md"
                   >
@@ -148,17 +141,14 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* Results */}
+              {/* Status Bar */}
               <div className="mb-4">
-                <h4 className="text-sm font-medium text-card-foreground mb-2">Key Results:</h4>
-                <ul className="space-y-1">
-                  {project.results.map((result, resultIndex) => (
-                    <li key={resultIndex} className="flex items-center text-xs text-muted-foreground">
-                      <div className="w-1 h-1 bg-primary rounded-full mr-2"></div>
-                      {result}
-                    </li>
-                  ))}
-                </ul>
+                <div className="flex items-center gap-2">
+                  <span className={`inline-block px-2 py-1 text-xs font-semibold rounded-full ${project.status === 'Ongoing' ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/20 dark:text-yellow-300' : 'bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-300'}`}>
+                    {project.status}
+                  </span>
+                  <span className="text-xs text-muted-foreground">{project.status === 'Ongoing' ? 'Project in progress' : 'Project completed'}</span>
+                </div>
               </div>
 
               {/* Industry */}
@@ -166,10 +156,34 @@ const Projects = () => {
                 <span className="text-xs text-muted-foreground">
                   Industry: <span className="font-medium">{project.industry}</span>
                 </span>
-                <Button 
-                  variant="ghost" 
+                <Button
+                  variant="ghost"
                   size="sm"
                   className="text-xs p-2 group-hover:text-primary transition-smooth"
+                  onClick={() => {
+                    switch (project.title) {
+                      case "Mars Entry and Descent System":
+                        navigate("/projects/mars-entry-descent");
+                        break;
+                      case "Re-usable Launch Vehicles":
+                        navigate("/projects/reusable-launch-vehicles");
+                        break;
+                      case "Morphing Wings for Sustainable Aviation":
+                        navigate("/projects/morphing-wing");
+                        break;
+                      case "Collaborative Systems of Systems":
+                        navigate("/projects/collaborative-systems");
+                        break;
+                      case "F/A 18":
+                        navigate("/projects/fa18");
+                        break;
+                      case "Manufacturing Process Optimization":
+                        navigate("/projects/manufacturing-optimization");
+                        break;
+                      default:
+                        break;
+                    }
+                  }}
                 >
                   <ExternalLink className="h-3 w-3" />
                 </Button>
@@ -206,7 +220,7 @@ const Projects = () => {
             Ready to Start Your Project?
           </h3>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join hundreds of satisfied clients who have transformed their engineering challenges 
+            Join hundreds of satisfied clients who have transformed their engineering challenges
             into successful solutions with our expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -223,6 +237,22 @@ const Projects = () => {
             </Button>
           </div>
         </div>
+        {/* Mars Entry Modal */}
+        {openMarsModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+            <div className="bg-white rounded-lg shadow-lg max-w-lg w-full p-6 relative">
+              <button
+                className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+                onClick={() => setOpenMarsModal(false)}
+                aria-label="Close"
+              >
+                ×
+              </button>
+              <h3 className="text-xl font-bold mb-4 text-primary">Mars Entry and Descent System</h3>
+              <p className="text-gray-800 whitespace-pre-line">{marsDescription}</p>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
