@@ -12,11 +12,9 @@ import {
   ExternalLink
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
 import { useState } from "react";
 
 const Projects = () => {
-  const navigate = useNavigate();
   const projects = [
     {
       title: "Morphing Wings for Sustainable Aviation",
@@ -40,7 +38,7 @@ const Projects = () => {
       title: "Re-usable Launch Vehicles",
       category: "Aerodynamics",
       description: "Transonic and supersonic aerodynamic analysis for Re-usable Launch Vehicles, with a focus on aerodynamics forces and grid-fins shape optimization.",
-      technologies: ["Shape Optimization", "CFD", "Static Stability", "Chimera mesh"],
+      technologies: ["Shape Optimization", "CFD", "Static Stability", "Chimera mesh", "Grid Fins meshing"],
       icon: Rocket,
       status: "Ongoing",
       industry: "Aerospatial Engineering"
@@ -88,9 +86,10 @@ const Projects = () => {
   const [openMarsModal, setOpenMarsModal] = useState(false);
 
   const marsDescription = `Since May 2025, CFS Engineering has been participating in an ESA-funded project focused on the development of a Mars Entry and Descent System. CFD simulations will be performed at points throughout the trajectories. This will provide a complete aerodynamic database, showing variation with Mach and angle of attack. CFS Engineering will reconstruct wind tunnel tests and will rebuild the T-IBU dynamic stability test at high subsonic/transonic conditions.`;
+  const navigate = useNavigate();
 
   return (
-    <section id="projects" className="py-1 bg-background">
+    <section id="projects" className="py-1 bg-background scroll-mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">

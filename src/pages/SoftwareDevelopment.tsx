@@ -97,7 +97,7 @@ const SoftwareDevelopment = () => {
                         <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">Baspl3</h1>
                         <p className="text-lg text-muted-foreground mb-8">
                             Baspl3 is our in-house developed post-processing visualization
-                            tool tailored for NSMB and the engineers at CFSE.
+                            tool tailored for NSMB's data outputs and the engineers at CFSE.
                         </p>
                     </>
                 )}

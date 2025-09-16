@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from 'react-router-dom';
 import {
   Building2,
   Cog,
@@ -22,19 +23,19 @@ const Services = () => {
       icon: Rocket,
       title: "Aerothermodynamics",
       description: "Design thermal protection systems for re-entry vehicles:",
-      features: ["Hypersonic flow simulations", "Wall-Heat flux calculations", "Radiation effects", "Thermal protection design"]
+      features: ["Hypersonic flow simulations", "Wall-Heat flux calculations", "Radiation effects", "Thermal protection design", "Atmospheric Entry & Ascent"]
     },
     {
       icon: Building2,
       title: "Fluid Structure Interaction",
       description: "Ensure the integrity of your systems' structure under fluid loads:",
-      features: ["Static stress analysis", "Dynamic response", "Modal analysis", "Fatigue assessment"]
+      features: ["Static stress analysis", "Dynamic response", "Modal analysis", "Fatigue assessment", "Preventing structural failure"]
     },
     {
       icon: Cog,
       title: "Tailored Solutions",
       description: "Customized simulation solutions for specific engineering needs.",
-      features: ["Biofluid Dynamics", "Pumps", "High-speed trains", "Civil Engineering",]
+      features: ["Biofluid Dynamics", "Pumps", "High-speed trains", "Civil Engineering", "Smart Morphing & Sensing"]
     },
     {
       icon: BarChart3,
@@ -93,6 +94,19 @@ const Services = () => {
                 variant="outline"
                 size="sm"
                 className="w-full group-hover:border-primary group-hover:text-primary transition-smooth"
+                onClick={() => {
+                  // Map service titles to route slugs
+                  const slugMap: Record<string, string> = {
+                    'Aerodynamics': 'aerodynamics',
+                    'Aerothermodynamics': 'aerothermodynamics',
+                    'Fluid Structure Interaction': 'fsi',
+                    'Tailored Solutions': 'tailored',
+                    'Engineering Consulting': 'consulting',
+                    'Custom Solutions': 'custom'
+                  };
+                  const slug = slugMap[service.title] || 'service';
+                  window.location.href = `/services/${slug}`;
+                }}
               >
                 Learn More
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -100,7 +114,6 @@ const Services = () => {
             </Card>
           ))}
         </div>
-
       </div>
     </section>
   );

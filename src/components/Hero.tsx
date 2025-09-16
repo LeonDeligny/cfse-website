@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calculator, Lightbulb, Globe } from "lucide-react";
-import heroSimulationImg from "@/assets/hero-simulation.jpg";
+import heroSimulationImg from "@/assets/lac-leman.avif";
 
 const Hero = () => {
   const handleExploreServices = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
           alt="Engineering simulation visualization" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 gradient-hero opacity-90"></div>
+        <div className="absolute inset-0 gradient-hero opacity-60"></div>
       </div>
 
       {/* Content */}
