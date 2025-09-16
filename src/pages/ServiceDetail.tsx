@@ -11,7 +11,7 @@ const ServiceDetail = () => {
     const servicesMap: Record<string, { title: string; description: string; features: string[] }> = {
         aerodynamics: {
             title: 'Aerodynamics',
-            description: 'CFS Engineering participated in several AIAA drag prediction workshops. After the 4th Drag Prediction Workshop drag polars were computed on the medium multi block structured grids provided by all Workshop participants, and the results were processed by the far field drag extraction tool developed by CFS Engineering and RUAG. All results are published in a paper inside the Journal of Aircraft.',
+            description: "Aerodynamics corresponds to the fundamental science behind how objects move through the air. Understanding the forces of lift, drag, thrust, and weight allows engineers to design more efficient aircraft, cars, and even sports equipment. This knowledge directly impacts our lives by making air travel safer and more fuel-efficient, improving vehicle performance, and enabling the creation of advanced technologies.",
             features: ['Subsonic to low-supersonic flow analysis', 'Lift and Drag prediction', 'Static and Dynamic Stability', 'Turbulent flow analysis', 'Active flow control']
         },
         aerothermodynamics: {
@@ -51,6 +51,7 @@ const ServiceDetail = () => {
                 </button>
                 <h1 className="text-3xl font-bold text-foreground mb-4">{svc.title}</h1>
                 <p className="text-lg text-muted-foreground mb-6">{svc.description}</p>
+
                 <div className="clear-both" />
 
                 {slug === 'aerodynamics' ? (
@@ -66,14 +67,50 @@ const ServiceDetail = () => {
                                 <AccordionItem value="lift-drag">
                                     <AccordionTrigger>Lift and Drag prediction</AccordionTrigger>
                                     <AccordionContent>
-                                        High-fidelity force prediction workflows (including the far-field drag extraction used in AIAA workshops) to produce accurate lift and drag polars for design and validation.
+                                        CFS Engineering participated in several {' '}
+                                            <a
+                                                href="https://www.aiaa-dpw.org/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-primary underline"
+                                            >
+                                                AIAA drag prediction workshops.
+                                            </a> {' '}
+                                        After the 4th Drag Prediction Workshop drag polars were computed on
+                                        the medium multi block structured grids provided by all Workshop
+                                        participants, and the results were processed by the far field drag
+                                        extraction tool developed by CFS Engineering and RUAG. These results
+                                        are published in the following paper:
+                                        <p className="mb-4">
+                                            <a
+                                                href="https://arc.aiaa.org/doi/10.2514/6.2010-4552"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-primary underline"
+                                            >
+                                                DPW4 Results Using Different Grids Including Near-Field/Far-Field Drag Analysis — AIAA (2010).
+                                            </a>
+                                        </p>
                                     </AccordionContent>
                                 </AccordionItem>
                                 <AccordionItem value="stability">
                                     <AccordionTrigger>Static and Dynamic Stability</AccordionTrigger>
                                     <AccordionContent>
-                                        Static trim analyses, modal and eigenvalue-based dynamic stability studies, and coupled aeroelastic investigations to assess behavior across the flight envelope.
-                                    </AccordionContent>
+                                        Sending a vehicle into space is one thing,
+                                        getting it safely back is a total different story.
+                                        Dynamic stability in particular is a critical issue,
+                                        in particular in the so called low speed regime
+                                        (supersonic/transonic/subsonic regime).
+                                        One can distinguish two types of stability, static and dynamic.
+                                        Any moving vehicle is subject to minor changes in the forces
+                                        acting on it. When such a change will lead to further changes
+                                        bringing the vehicle back to it’s original position the vehicle is
+                                        called statically stable. Dynamic stability is related to a
+                                        perturbation of the steady state (flight and motion) of a vehicle
+                                        and how the oscillations generated by this perturbation are damped out.
+                                        CFS Engineering routinely performs steady CFD simulations to assess
+                                        static stability and unsteady CFD simulations to analyze the dynamic
+                                        stability of aircraft and re-entry vehicles.                                    </AccordionContent>
                                 </AccordionItem>
                                 <AccordionItem value="turbulence">
                                     <AccordionTrigger>Turbulent flow analysis</AccordionTrigger>
