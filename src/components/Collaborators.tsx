@@ -29,6 +29,9 @@ const Collaborators = () => {
                         <a href="https://www.elomatic.com/" target="_blank" rel="noopener noreferrer">
                             <img src="/collaborators/elomatic.png" alt="ELOMATIC" className="h-12 w-auto object-contain hover:scale-102 transition-transform" />
                         </a>
+                        {/* <a href="https://www.stadlerrail.com/en" target="_blank" rel="noopener noreferrer">
+                            <img src="/collaborators/stadler.svg" alt="STADLER" className="h-8 w-auto object-contain hover:scale-102 transition-transform" />
+                        </a> */}
                     </div>
                 </div>
             </div>

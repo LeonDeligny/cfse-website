@@ -53,6 +53,7 @@ const MarsEntryDescent = () => (
                             </Stage>
                         </Suspense>
                         <OrbitControls enablePan enableZoom enableRotate />
+                        <div className="mt-3 text-sm text-muted-foreground">Interactive Mars Capsule model — drag to rotate, scroll to zoom.</div>
                     </Canvas>
                 </div>
             </div>

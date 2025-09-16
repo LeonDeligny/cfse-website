@@ -39,9 +39,9 @@ const Services = () => {
     },
     {
       icon: BarChart3,
-      title: "Engineering Consulting",
+      title: "Expert Methods",
       description: "Expert consultation on numerical methods, simulation strategy, and engineering problem-solving approaches.",
-      features: ["Method selection", "Model validation", "Results interpretation", "Best practices"]
+      features: ['Particles Tracking', 'Separation – 6DoF', 'Chimera method', 'Sliding meshes']
     },
     {
       icon: Zap,
@@ -101,7 +101,7 @@ const Services = () => {
                     'Aerothermodynamics': 'aerothermodynamics',
                     'Fluid Structure Interaction': 'fsi',
                     'Tailored Solutions': 'tailored',
-                    'Engineering Consulting': 'consulting',
+                    'Expert Methods': 'methods',
                     'Custom Solutions': 'custom'
                   };
                   const slug = slugMap[service.title] || 'service';
