@@ -18,7 +18,7 @@ function MarsCapsuleModel() {
             }
         });
     }, [gltf]);
-    return <primitive object={gltf.scene} scale={1.5} />;
+    return <primitive object={gltf.scene} scale={1.5} rotation={[0, -Math.PI / 2, 0]} />;
 }
 
 const MarsEntryDescent = () => (
@@ -37,8 +37,8 @@ const MarsEntryDescent = () => (
                     </ul>
                 </div>
             </div>
-            <div className="w-full flex justify-center items-center mb-8">
-                <div className="w-full h-[400px] bg-white rounded-lg overflow-hidden shadow-lg">
+            <div className="w-full mb-4">
+                <div className="w-full h-[320px] bg-white rounded-lg overflow-hidden shadow-sm">
                     <Canvas camera={{ position: [0, 0, 8], fov: 50 }} shadows style={{ background: '#fff' }}>
                         {/* brighter ambient to lift shadows */}
                         <ambientLight intensity={0.6} />
@@ -53,9 +53,9 @@ const MarsEntryDescent = () => (
                             </Stage>
                         </Suspense>
                         <OrbitControls enablePan enableZoom enableRotate />
-                        <div className="mt-3 text-sm text-muted-foreground">Interactive Mars Capsule model — drag to rotate, scroll to zoom.</div>
                     </Canvas>
                 </div>
+                <div className="mt-3 text-sm text-muted-foreground text-center">Interactive EDL model — drag to rotate, scroll to zoom.</div>
             </div>
             <div className="mt-8">
                 <button

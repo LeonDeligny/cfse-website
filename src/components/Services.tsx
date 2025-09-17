@@ -47,7 +47,7 @@ const Services = () => {
       icon: Zap,
       title: "Custom Solutions",
       description: "Tailored simulation solutions and specialized analysis for unique engineering challenges and research projects.",
-      features: ["Custom modeling", "Algorithm development", "Specialized analysis", "Research support"]
+      features: ["Custom modeling", "Algorithm development", "Specialized analysis", "Reconstruct wind tunnel tests"]
     }
   ];
 

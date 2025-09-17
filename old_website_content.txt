@@ -1,0 +1,1288 @@
+## About us 
+
+CFS Engineering is a consultancy company founded in August 1999, located in the EPFL Innovation Park (EIP) of the Swiss Federal Institute of Technology (EPFL) in Lausanne, Switzerland. The mission of CFS Engineering is:
+
+    To offer services in the Numerical Simulation of Fluid Mechanics and Structural Mechanics Engineering Problems
+
+Numerical simulation of complex engineering problems is becoming increasingly important in product design, but requires highly specialized knowledge and tools. CFS Engineering has this knowledge and the tools to work with its customers to better understand the physics of complex engineering problems, with the ultimate goal of improving product design and/or performance. CFS Engineering is a Societe Anonyme (SA) with 2 share holders, Silvio Merazzi and Jan B. Vos.
+Due to increased competition in the industrial market and increased environmental requirements, engineering products need to be produced cheaper, faster and better. Numerical simulation can contribute substantially to this process, as it is faster and cheaper than experimental or real model testing. CFS Engineering works closely with its clients to better understand their complex engineering problems using numerical simulation, with the ultimate goal of improving product design.
+
+    CFS Engineering offers the following services:
+
+    grid generation for fluid and structural mechanics problems
+    computational fluid dynamics (CFD) simulations
+    structural mechanics simulations in collaboration with SMR
+    wind tunnel testing through RUAG
+    CFD simulations for conceptual and preliminary aerodynamic design
+    moving bodies simulations
+
+CFS Engineering can tailor its simulation codes to suit specific client needs. Available computer resources at CFS Engineering are two linux clusters with a total of 120 cores.
+
+
+## Publications
+
+# 2025
+
+Vos, J. B.; Gehri, A.; Benedetti, G.; Marwege, A.
+
+Aerodynamic Data Base Generation for a Re-usable Launcher Configuration Conference
+
+FAR2025 , Arcachon, 2025.
+
+Links | BibTeX
+
+https://cfse.ch/nextcloud/index.php/s/Jix7yBDXmaKtm28
+
+
+# 2023
+
+Truong, H.; Marouf, A.; Vos, J. B.; Gehri, A.; Braza, M.; Hoarau, Y.
+
+Numerical investigation of Active Flow Control using Zero Net Mass Flux jets around a high-lift morphing cambered wing-flap system Journal Article
+
+In: International Journal of Numerical Methods of Heat and Fluid Flow, 2023.
+
+Links | BibTeX
+
+https://publis.icube.unistra.fr/2-TMVG23
+
+
+Truong, H.; Marouf, A.; Hoarau, Y.; Vos, J. B.; Gehri, A.
+
+Optimization of Synthetic jet to enhance the aerodynamic performance of a VTOL aircraft at real flight conditions Conference
+
+AIAA Scitech 2023 Forum , Virtual, 2023.
+
+Links | BibTeX
+
+https://univoak.eu/islandora/object/islandora:156320
+
+
+# 2022
+
+Vos, J. B.; Gehri, A.; Troung, H.; Marouf, A.; Hoarau, Y.
+
+Using Active Flow Control to improve the Aerodynamic Performance of the Next Generation Civil Tilt Rotor Aircraft Conference
+
+33rd ICAS Meeting , Stockholm, 2022.
+
+Links | BibTeX
+
+https://doi.org/10.1007/s12567-022-00458-9
+
+
+Marwege, A.; Guelhan, A.; Klevanski, J.; Hantz, C.; Karl, S.; Laureti, M.; Zaiacomo, G. De; Vos, J. B.; Jevons, M.; Thies, C.; Krammer, A.; Lichtenberger, M.; Carvalho, J.; Paixão, S.
+
+RETALT: review of technologies and overview of design changes Journal Article
+
+In: CEAS Space Journal, 2022.
+
+Links | BibTeX
+
+https://zenodo.org/record/6783922
+
+
+Marwege, A.; Klevanski, J.; Hantz, C.; Kirchheck, D.; Guelhan, A.; Karl, S.; Laureti, M.; Zaiacomo, G. De; Vos, J. B.; Thies, C.; Jevons, M.; Krammer, A.; Lichtenberger, M.; Carvalho, J.; Paixão, S.
+
+Key Technologies for Retro Propulsive Vertical Descent and Landing – RETALT – An Overview Conference
+
+FAR2022 , Heilbronn, 2022.
+
+Links | BibTeX
+
+https://zenodo.org/record/6783915
+
+
+Marwege, A.; Hantz, C.; Kirchheck, D.; Klevanski, J.; Vos, J. B.; Laureti, M.; Karl, S.; Guelhan, A.
+
+Aerodynamic Phenomena of Retro Propulsion Descent and Landing Configurations Conference
+
+FAR2022 , Heilbronn, 2022.
+
+Links | BibTeX
+
+https://zenodo.org/record/6783922
+
+
+Vos, J. B.; Charbonnier, D.; Marwege, A.; Hantz, C.; Guelhan, A.
+
+CFD Simulations and Wind Tunnel Experiments for Re-usable Launch Vehicles Conference
+
+FAR2022 , Heilbronn, 2022.
+
+Links | BibTeX
+
+https://zenodo.org/record/6759393
+
+
+Truong, H.; Marouf, A.; Chouippe, A.; Hoarau, Y.; Vos, J. B.; Charbonnier, D.; Gehri, A.
+
+Flow analysis around a VTOL aircraft near stall conditions and application of Active Flow Control to enhance the aerodynamic performances at real flight conditions Conference
+
+AIAA Aviation 2022 , Virtual, 2022.
+
+Links | BibTeX
+
+https://univoak.eu/islandora/object/islandora:153606
+
+
+Marouf, A.; Chouippe, A.; Troung, H.; Hoarau, Y.; Charbonnier, D.; Gehri, A.; Vos, J. B.
+
+Effects of Zero Net Mass Flux devices on a Next-Generation Tiltrotor airplane in subsonic regime by numerical simulation at high Reynolds number application of Active Flow Control to enhance the aerodynamic performances at real flight conditions Conference
+
+EUCASS 2022 , Lille, 2022.
+
+Links | BibTeX
+
+https://univoak.eu/islandora/object/islandora:152980
+
+
+Charbonnier, D.; Vos, J. B.; Marwege, A.; Hantz, C.
+
+Computational fluid dynamics investigations of aerodynamic control surfaces of a vertical landing configuration Journal Article
+
+In: CEAS Space Journal, 2022.
+
+Links | BibTeX
+
+https://doi.org/10.1007/s12567-022-00431-6
+
+
+Marwege, A.; Hantz, C.; Kirchheck, D.; Klevanski, J.; Guelhan, A.; Charbonnier, D.; Vos, J. B.
+
+Wind tunnel experiments of interstage segments used for aerodynamic control of retro-propulsion assisted landing vehicles Journal Article
+
+In: CEAS Space Journal, 2022.
+
+Links | BibTeX
+
+https://doi.org/10.1007/s12567-022-00425-4
+
+
+Vos, J. B.; Charbonnier, D.; Marwege, A.; Guelhan, A.; Laureti, M.; Karl, S.
+
+Aerodynamic investigations of a Vertical Landing Launcher configuration by means of Computational Fluid Dynamics and Wind Tunnel Tests Conference
+
+AIAA Scitech 2022 Forum , San Diego, 2022.
+
+Links | BibTeX
+
+https://zenodo.org/record/5814915
+
+
+Marouf, A.; Truong, H.; Hoarau, Y.; Charbonnier, D.; Vos, J. B.; Braza, M.
+
+CFD simulations of active flow control devices applied on a cambered flap Conference
+
+AIAA Scitech 2022 Forum , Virtual, 2022.
+
+Links | BibTeX
+
+https://univoak.eu/islandora/object/islandora:138466
+
+
+# 2021
+
+Torrigiani, A. F.; Ciampa, P. D.; Nagel, B.; Deinert, S.; Fioriti, M.; Fede, F. Di; Jungo, A.; Pisu, L.; Jeyaraj, A.
+
+MBSE Certification-Driven Design of a UAV MALE Configuration in the AGILE 4.0 Design Environment Conference
+
+vol. 2021-3080, AIAA Aviation , Virtual, 2021.
+
+Links | BibTeX
+
+doi:10.2514/6.2021-3080
+
+
+Marouf, A.; Ghouippe, A.; Vos, J. B.; Charbonnier, D.; Gehri, A.; Braza, M.; Hoarau, Y.
+
+Unsteady CFD simulations for Active Flow Control Conference
+
+AIAA Aviation 2021 , Virtual, 2021.
+
+Links | BibTeX
+
+https://univoak.eu/islandora/object/islandora:119707
+
+
+# 2020
+
+Jungo, A.; Riolo, V.; Vos, J. B.
+
+Using surrogate models to speed up the creation of aerodynamic databases in CEASIOMpy Conference
+
+READ 2020 , Virtual, 2020.
+
+Links | BibTeX
+
+https://zenodo.org/record/4632819
+
+
+Riolo, V.
+
+Exploration of optimization and machine learning methods in the field of aircraft design Masters Thesis
+
+CFS Engineering, 2020.
+
+Links | BibTeX
+
+https://zenodo.org/record/4672244
+
+
+Kuntzner, J-P.
+
+Aero-elastic Tool implemented in a preliminary aircraft design suite Masters Thesis
+
+CFS Engineering, 2020.
+
+Links | BibTeX
+
+https://zenodo.org/record/4672256
+
+
+# 2019
+
+Marwege, A.; Guelhan, A.; Klevanski, J.; Riehmer, J.; Karl, S.; Kirchheck, D.; Bonetti, D.; Vos, J. B.; Jevons, M.; Krammer, A.; Carvalho, J.
+
+Retro Propulsion Assisted Landing Technologies (RETALT): Current Status and Outlook of the EU funded project on Reusable Launch Vehicles Conference
+
+70th International Astronautical Congress (IAC) , Washington D.C. USA, 2019.
+
+Links | BibTeX
+
+https://zenodo.org/record/5770046
+
+
+Vos, J. B.; Charbonnier, D.
+
+The importance of Bow Shock Adaption in CFD simulations for Hypersonic Flows Conference
+
+FAR2019 , Monopoli, 2019.
+
+Links | BibTeX
+
+https://cfse.ch/nextcloud/index.php/s/SQ8WDEXRcWcLTws
+
+
+Charbonnier, D.; Vos, J. B.
+
+Determination of Dynamic Derivatives of Re-entry Vehicles using Unsteady CFD Conference
+
+FAR2019 , Monopoli, 2019.
+
+Links | BibTeX
+
+https://cfse.ch/nextcloud/index.php/s/PNHiJdSYHT5FXiX
+
+
+Guelhan, A.; Marwege, A.; Klevanski, J.; Karl, S.; Bonetti, D.; Vos, J. B.; Jevons, M.; Krammer, A.; Carvalho, J.
+
+RETALT - RETro propulsion Assisted Landing Technologies Conference
+
+Internation Plenatry Probe Workshop , Oxford, UK, 2019.
+
+Links | BibTeX
+
+https://zenodo.org/record/5770145
+
+
+# 2018
+
+Walther, J. N.; Gastaldi, A.; Jungo, A.; Zhang, M.; Maierl, R.
+
+Integration Aspects of the Collaborative Aero-Structural Design of an Unmanned Aerial Vehicle Conference
+
+DLRK 2018 , Friedrichshafen, DE, 2018.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/1LLvkJlcrxcazSF
+
+
+Maierl, R.; Gastaldi, A.; Daoud, F.; Walther, J. N.; Ciampa, P. D.; Jungo, A.; Zhang, M.
+
+Aero-Structural Optimization of a Male Configuration in the AGILE MDO Framework Conference
+
+ICAS 2018 , Belo Horizonte, Brazil, 2018.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/p55SINI9eJBJYoP
+
+
+Torrigiani, F.; Bussemaker, J.; Ciampa, P. D.; Fioriti, M.; Tomasella, F.; Aigner, B.; Rajpal, D.; Timmermans, H.; Savelyev, A.; Charbonnier, D.
+
+Design of the Strut Braced Wing aircraft in the AGILE Collaborative MDO Framework Conference
+
+ICAS 2018 , Belo Horizonte, Brazil, 2018.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/AYfmOZCBYHqRqHj
+
+
+Drougard, Malo
+
+Computer-Aided Design for Aircraft Masters Thesis
+
+EPFL - CFS Engineering, 2018.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/5NCYBUiaXmNh3uR
+
+
+Vos, J. B.; Charbonnier, D.; Siikonen, T.; Salminen, E.; Gehri, A.; Stephani, P.
+
+Swiss/Finnish Collaboration on Aero-elastic Simulations for the F/A-18 Fighter Conference
+
+vol. AIAA-2018-3642, AIAA Aviation 2018 , Atlanta, 2018.
+
+Links | BibTeX
+
+https://cfse.ch/wp-content/uploads/2019/05/AIAA-2018-3642.pdf
+
+
+Jungo, A.; Zhang, M.; Vos, J. B.; Rizzi, A. W.
+
+Benchmarking New CEASIOM with CPACS Adoption for Aerodynamic Analysis and Flight Simulation Journal Article
+
+In: Aircraft Engineering and Aerospace Technology, vol. 90, no. 4, 2018.
+
+Links | BibTeX
+
+https://www.emeraldinsight.com/doi/full/10.1108/AEAT-11-2016-0204
+
+
+Zhang, M.; Jungo, A.; Gastaldi, A.; Melin, T.
+
+Aircraft Geometry and Meshing with Common Language Schema CPACS for Variable-Fidelity MDO Applications Journal Article
+
+In: Aerospace, vol. 5, no. 2, 2018.
+
+Abstract | Links | BibTeX
+
+https://www.mdpi.com/2226-4310/5/2/47/htm
+
+
+# 2017
+
+Charbonnier, D.; Vos, J. B.; Prakasha, P. S.; Mirzoyan, A.; Savelyev, A.; Vecchia, P. Della
+
+Low Speed Take-Off Aerodynamic Analysis. Conference
+
+vol. Paper 272, 6th CEAS Air & Space Conference Aerospace Europe , Bucharest, Romania, 2017.
+
+Abstract | Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/KwSv2XqEtkvXrBm
+
+
+Zhang, M.; Jungo, A.; Bartoli, N.
+
+Disciplinary Data Fusion for Multi-Fidelity Aerodynamic Application. Conference
+
+vol. Paper 953, 6th CEAS Air & Space Conference Aerospace Europe , Bucharest, Romania, 2017.
+
+Abstract | Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/OlTdWacuqwKaFCo
+
+
+Berdajs, D.; Mosbahi, S.; Ferrari, E.; Charbonnier, D.; von Segesser, L. K.
+
+Aortic Valve Pathology as a Predictive Factor for Acute Aortic Dissection Journal Article
+
+In: The Annals of thoracic surgery, vol. 104, no. 4, pp. 1340-1348, 2017.
+
+Abstract | Links | BibTeX
+
+https://www.annalsthoracicsurgery.org/article/S0003-4975(17)30400-9/abstract
+
+
+Vos, J. B.; Charbonnier, D.; Ludwig, T.; Merazzi, S.; Gehri, A.; Stephani, P.
+
+Recent Developments on Fluid Structure Interaction in the Navier Stokes Multi Block (NSMB) CFD solver Conference
+
+vol. AIAA-2017-4458, AIAA Aviation 2017 , Denver, 2017.
+
+Links | BibTeX
+
+https://cfse.ch/wp-content/uploads/2019/05/AIAA-2017-4458.pdf
+
+
+Berdajs, D.; Mosbahi, S.; Strano, F.; Forro, Z.; Burki, M.; von Segesser, L. K.
+
+Impact of synthetic elements on aortic root haemodynamics: computed fluid dynamics of aortic root reconstruction and valve reimplantation Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 51, no. 3, pp. 432-441, 2017.
+
+Abstract | Links | BibTeX
+
+https://academic.oup.com/ejcts/article/51/3/432/2738865
+
+
+Gastaldi, Alessandro
+
+Development of a Double-Lattice Method Program for Aeroelastic Analysis in Conceptual Aircraft Design. Masters Thesis
+
+EPFL – CFS Engineering, 2017.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/5G0cq7M2jHtUgMR
+
+
+# 2016
+
+Zhang, M.; Rizzi, A. W.; Jungo, A.; Vos, J. B.
+
+Automated Meshing and Data Fusion applied to create Aerodataset for AGILE DC-1 Configuration. Conference
+
+6th EASN Workshop , Porto, Portugal, 2016.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/RDT70j9a9ye6oR5
+
+
+Jungo, A.; Vos, J. B.; Zhang, M.; Rizzi, A. W.
+
+Benchmarkig New CEASIOM with CPACS Adoption for Aerodynamic Analysis and Flight Simulation. Conference
+
+6th SCAD & READ Workshop , Warsaw, Poland, 2016.
+
+Links | BibTeX
+
+https://www.agile-project.eu/cloud/index.php/s/azueBN1q6vanpll
+
+
+Berdajs, D.; Mosbahi, S.; Forro, Z.; Gerber, C.; Burki, M.; von Segesser, L. K.
+
+Aortic root haemodynamics following David procedure: numerical analysis of 3-dimensional haemodynamics Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 49, no. 6, pp. 1588-1598, 2016.
+
+Abstract | Links | BibTeX
+
+https://academic.oup.com/ejcts/article/49/6/1588/2197382
+
+
+Berdajs, D.; Mosbahi, S.; Forro, Z.; Gerber, C.; Ferrari, E.; Charbonnier, D.; von Segesser, L. K.
+
+Numerical analysis of the 3-dimensional aortic root morphology during the cardiac cycle Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 49, no. 4, pp. 1213-1221, 2016.
+
+Abstract | Links | BibTeX
+
+https://academic.oup.com/ejcts/article/49/4/1213/2465325
+
+
+Vos, J. B.; Bourgoing, A.; Soler, J.
+
+Earth re-entry capsule CFS simulations taking into account surface roughness and mass injection at the wall Journal Article
+
+In: vol. 5, no. 1, 2016.
+
+Links | BibTeX
+
+https://doi.org/10.1504/IJAD.2015.074622
+
+
+Hoarau, Y.; Pena, D.; Vos, J. B.; Charbonnier, D.; Gehri, A.; Braza, M.; Deloze, T.; Laurendeau, E.
+
+Recent Developments of the Navier Stokes Multi Block (NSMB) CFD solver Conference
+
+vol. AIAA-2016-2056, AIAA Scitec 2016 , San Diego, 2016.
+
+Links | BibTeX
+
+https://cfse.ch/wp-content/uploads/2019/05/AIAA-2016-2056.pdf
+
+
+Tomac, M.; Rizzi, A. W.; Charbonnier, D.; Vos, J. B.; Jirasek, A.; Winkler, S-H. Pengand A.; Allen, A.; Wissocq, G.; Puigt, G.; Dandois, J.; Abarca-Lopez, R.
+
+Unsteady Aero-Loads from Vortices Shed on A320 Landing Gear Door: CFD compared to flight tests Conference
+
+vol. AIAA-2016-0803, AIAA Scitech 2016 , San Diego, 2016.
+
+Links | BibTeX
+
+https://cfse.ch/wp-content/uploads/2019/05/AIAA-2016-0803.pdf
+
+
+Rizzi, A. W.; Zhang, M.; Bisson, F.; Nadarajah, S.
+
+Comparative Study of Two Optimization Frameworks Applied to Case III: Induced-Drag Minimization Conference
+
+vol. AIAA-2016-1296, AIAA Scitech 2016 , San Diego, 2016.
+
+Links | BibTeX
+
+https://doi.org/10.2514/6.2016-1296
+
+
+# 2015
+
+Berdajs, D.; Mosbahi, S.; Vos, J. B.; Charbonnier, D.; Hullin, R.; von Segesser, L. K.
+
+Fluid dynamics simulation of right ventricular outflow tract oversizing Journal Article
+
+In: Interactive Cardiovascular and Thoracic Surgery, vol. 21, no. 2, pp. 176-182, 2015.
+
+Abstract | Links | BibTeX
+
+https://academic.oup.com/icvts/article/21/2/176/766587
+
+
+Berdajs, D.; Mosbahi, S.; Charbonnier, D.; Hullin, R.; von Segesser, L. K.
+
+Analysis of flow dynamics in right ventricular outflow tract Journal Article
+
+In: Journal of Surgical Research, vol. 197, no. 1, pp. 50-57, 2015.
+
+Abstract | Links | BibTeX
+
+https://www.journalofsurgicalresearch.com/article/S0022-4804(15)00220-6/abstract
+
+
+Charbonnier, D.; Vos, J. B.; Clopeau, E.; Ferracina, L.; Maraffa, L.
+
+MarcoPolo-R ERC Dynamic Stability Characterization: Computational Campaign Conference
+
+ESA ATD , Lisbon, 2015.
+
+Links | BibTeX
+
+https://www.researchgate.net/publication/275638548_MarcoPolo-R_ERC_Dynamic_Stability_Characterization_Computational_Campaign
+
+
+# 2014
+
+Mosbahi, S.; Mickaily-Huber, E.; Charbonnier, D.; Hullin, R.; Burki, M.; Ferrari, E.; von Segesser, L. K.; Berdajs, D.
+
+Computational fluid dynamics of the right ventricular outflow tract and of the pulmonary artery: a bench model of flow dynamics Journal Article
+
+In: Interactive Cardiovascular and Thoracic Surgery, vol. 19, no. 4, pp. 611-616, 2014.
+
+Abstract | Links | BibTeX
+
+https://academic.oup.com/icvts/article/19/4/611/765319
+
+
+# 2013
+
+Vos, J. B.; Sanchi, S.; Gehri, A.
+
+Drag Prediction Workshop 4 Results Using Different Grids Including Near-Field/Far-Field Drag Analysis Journal Article
+
+In: "Journal of Aircraft ", vol. 50, no. 5, 2013.
+
+Links | BibTeX
+
+https://doi.org/10.2514/1.C032161
+
+
+# 2012
+
+Clemente, M. Di; Trifoni, E.; Walpot, L.; Thoemel, J.; Vos, J. B.; Guelhan, A.; Thiele, T.; Pereira, C.
+
+Aerothermal Rebuilding of Plasma Wind Tunnel Tests on the EXPERT Capsule Open Flap Conference
+
+vol. AIAA-2012-3003, AIAA Aviation 2012 , New Orleans, 2012.
+
+Links | BibTeX
+
+https://doi.org/10.2514/6.2012-3003
+
+
+# 2011
+
+Rizzi, A. W.; Eliasson, P.; Goetzendorf-Grabowski, T.; Vos, J. B.; Zhang, M.; Richardson, T. S.
+
+Design of a canard configured TransCruiser using CEASIOM Journal Article
+
+In: "Progress in Aerospace Sciences ", vol. 47, no. 8, 2011.
+
+Links | BibTeX
+
+    https://doi.org/10.1016/j.paerosci.2011.08.011
+
+Guillaume, M.; Gehri, A.; Stephani, P.; Vos, J. B.; Mandanis, G.
+
+F/A-18 vertical buffeting calculations using unsteady fluid structure interaction Journal Article
+
+In: "The Aeronautical Journal ", vol. 115, no. 1167, 2011.
+
+Links | BibTeX
+
+    https://doi.org/10.1017/S0001924000005777
+
+
+# 2010
+
+Guillaume, M.; Gehri, A.; Stephani, P.; Vos, J. B.; Mandanis, G.
+
+Fluid Structure Interaction Simulation on the F/A-18 Vertical Tail Conference
+
+vol. AIAA-2010-4613, AIAA Aviation 2010 , Chicago, 2010.
+
+Links | BibTeX
+
+    https://cfse.ch/wp-content/uploads/2019/05/AIAA-2010-4613.pdf
+
+
+Vos, J. B.; Sanchi, S.; Gehri, A.
+
+DPW4 Results Using Different Grids Including Near-Field/Far-Field Drag Analysis Conference
+
+vol. AIAA-2010-4552, AIAA Aviation 2010 , Chicago, 2010.
+
+Links | BibTeX
+
+    https://cfse.ch/wp-content/uploads/2019/05/AIAA-2010-4552.pdf
+
+
+# 2002
+
+Vos, J. B.; Rizzi, A. W.; Darracq, D.; Hirschel, E. H.
+
+Navier Stokes solvers in European Aircraft Design Journal Article
+
+In: "Progress in Aerospace Sciences ", vol. 38, no. 8, 2002.
+
+Links | BibTeX
+
+    https://doi.org/10.1016/S0376-0421(02)00050-7
+
+
+# 1998
+
+Vos, J. B.; Rizzi, A. W.; Corjon, A.; Chaput, E.; Soinne, E.
+
+Recent Advances in Aerodynamics inside the NSMB (Navier Stokes Multi Block) Consortium Conference
+
+vol. AIAA-1998-0225, AIAA Scitech 1998 , Reno, 1998.
+
+Links | BibTeX
+
+    https://doi.org/10.2514/6.1998-225
+
+
+## Aerodynamics
+
+Lift/Drag prediction
+
+CFS Engineering participated in several AIAA drag prediction workshops. After the 4th Drag Prediction Workshop drag polars were computed on the medium multi block structured grids provided by all Workshop participants, and the results were processed by the far field drag extraction tool developed by CFS Engineering and RUAG. These results are presented in a paper published in a paper in the Journal of Aircraft.
+
+Fluid-Structure Interaction
+
+The Swiss Airforce operates the F/A-18 fighter since 1997. The Swiss usage of this aircraft is more severe than the US Navy Design, resulting in a different structural design. To better understand the aerodynamic loads a large investment was made in the development of a CFD capacity to generate these loads for different flight conditions. Procedures were developed for both static and dynamic Fluid Structure Interaction (FSI). Dynamic FSI calculations were made to study vertical tail buffeting using a tightly coupled approach. Papers on studies for the F/A-fighter were given at the AIAA Aviation Conferences in 2017 and 2018. Other papers on FSI were given in 2016 and 2018.
+
+Boundary-layer ingestion (BLI)
+
+Aircraft with an integrated BLI propulsion systems are today seen as enabling technology to reduce fuel burn and thus emissions. This has been confirmed in Wind tunnel tests using a simplified fuselage geometry, and reductions of upto 25% in power savings coefficient (PSC) were obtained. However most studies did not try to answer the question: What is the best aircraft architecture to integrate the BLI technology, and as a result aircraft with integrated BLI technology are today considered at a low Technology Readiness Level (TRL).
+
+Chimera method
+
+Chimera method also called overset grid method is developed to facilitate the mesh generation for complex shapes, using different grids for different parts of a geometry. The grids are used together, with overlapping of several cells and interpolation between these cells in order to have the continuity of the flow through each grids. This technic is also frequently used in the case of moving bodies, where the grid around the moving body overlaps a fixed background grid.
+
+Sliding meshes
+
+The NSMB CFD solver includes a sliding mesh approach that permits to simulate moving configurations, as for example a rotating propellor or a train entering a tunnel.
+
+Transportation
+
+The aerodynamics of high speed trains and the proper ventilation of air therein is of particular interest to ensure passenger safety. Stadler Rail took contact with CFS Engineering to better understand airflow around and in trains, particularly with respect to its new double-decker version.
+
+## Atmospheric re-entry
+
+Stability
+
+Sending a vehicle into space is one thing, getting it safely back is a total different story. Dynamic stability in particular is a critical issue, in particular in the so called low speed regime (supersonic/transonic/subsonic regime). One can distinguish two types of stability, static and dynamic. Any moving vehicle is subject to minor changes in the forces acting on it. When such a change will lead to further changes bringing the vehicle back to it’s original position the vehicle is called statically stable. Dynamic stability is related to a perturbation of the steady state (flight and motion) of a vehicle and how the oscillations generated by this perturbation are damped out. CFS Engineering routinely performs steady CFD simulations to assess static stability and unsteady CFD simulations to analyze the dynamic stability of aircraft and re-entry vehicles.
+
+Separation – 6DoF
+
+Moving body simulations are a challenging task including moving grids, rigid body movement and complex flow features that need to be resolved. The NSMB CFD solver includes a 6-DoF (Degrees of Freedom) module that recomputes the position of the moving body at each time step. The chimera method is employed in which each body has its own grid, that are sliding across each other. In the example on the right the apex cover has its own grid around it, and is moving upwards. The capsule also has its own grids, and moves slowly downwards. A back ground grid is used on which both the apex cover and capsules are moving.
+
+Heat Transfer
+
+Re-entry vehicles enter the atmosphere (Earth or Mars) at very high speed. This speed is reduced to the atmosphere, generating heat. For this reason re-entry vehicles have a Thermal Protection System (TPS) protecting the vehicle. CFS Engineering performs routine CFD simulations to determine the heat flux on re-entry vehicles. The value of this heat flux strongly depends on the properties of TPS, and this is translated in different boundary conditions for the temperature and species that can be used in the CFD solver (adiabatic wall, temperature imposed, radiative equilibrium, fully, partial or non-catalytic wall).
+
+Particle Tracking
+
+The earliest rockets employed solid propellants, and today solid propellant rockets are among the most powerful on the world. To increase the specific impulse Aluminum particles are added in the solid fuel grain. There particles radiate, and the NSMB CFD solver includes a particle tracking module that permits to track the particles leaving the rocket nozzle.
+
+
+## Interdisciplinary
+
+Biofluid dynamics
+
+3D simulations of blood flow through different parts of human body. Hemodynamics in heart , with moving leaflets for aortic valve, mitral valve…
+
+Transportation
+
+The aerodynamics of high speed trains and the proper ventilation of air therein is of particular interest to ensure passenger safety. Stadler Rail took contact with CFS Engineering to better understand airflow around and in trains, particularly with respect to its new double-decker version.
+
+Pumps
+
+3D simulations of water flow through pumping systems, including pistons, claps and rotating valves.
+
+Civil Engineering
+
+Simulation of smoke propagation from overheating of our computer cluster !
+Example computed using Fire Dynamics Simulator (FDS) and Smokeview (SMV). FDS is a large-eddy simulation (LES) code for low-speed flows, with an emphasis on smoke and heat transport from fires.
+
+
+## Projects
+
+# European projects
+
+CFS Engineering take part in many European funded project as aerodynamic specialist to performed:
+
+    RANS CFD calculations
+    Euler CFD calculations
+    Structured/Unstructured mesh generation
+    FSI analysis
+    Stability analysis
+
+Futhermore CFS was also responsible of branding, identity, logo & web design of some European project like AGILE, AGILE4.0, AFC4TR, RETALT and SimSAC.
+
+Ongoing projects﻿
+BEALIVE	
+
+The BEALIVE Horizon Europe project focuses on the aerodynamic optimization of aircraft wings with oscillating actuators, inspired by biological mechanisms found in shark skin and bird wings. By studying the interaction between actuator-induced vortices and the turbulent wake, the research aims to enhance lift-to-drag performance and reduce noise.
+Unsteady CFD simulations are performed to analyze how varying the actuator’s amplitude and frequency influences aerodynamic efficiency. The ultimate objective is to create a “live skin” on the wing.
+
+    LinkedIn
+
+Colossus	
+
+The COLOSSUS Horizon Europe project will develop a system-of-systems design methodology which for the first time will enable the combined optimization of aircraft, operations and business models. Resulting specific solutions for intermodal transport and wildfire-fighting as well as developed methods and tools will be openly published in order to foster exploitation for research and industry.
+
+    LinkedIn
+
+Past projects
+RETALT	
+
+The RETALT (RETro propulsion Assisted Landing Technologies) project has two main scientific and technological objectives :
+
+    To investigate the Launch system reusability technology of VTVL TSTO RLV applying
+    retro propulsion combined with aerodynamic control surfaces, which is currently
+    dominating the global market
+    To investigate the Launch system reusability technology of VTVL SSTO RLV applying
+    retro propulsion for future spaces transportations systems
+
+To meet the two main objectives of the project, described above, two reference configurations were be defined:
+
+    A configuration similar to the SpaceX rocket “Falcon 9” will be the reference forstate-of-the-art TSTO RLV.
+    A configuration similar to the US-American Delta Clipper will serve as reference forVTVL SSTO.
+
+The RETALT project ended successfully in August 2022.
+AGILE 4.0	
+
+AGILE 4.0 targets the digital transformation of main pillars of the aeronautical supply-chain: design, production and certification and manufacturing. The composition of the AGILE 4.0 consortium and capabilities available enable to address realistic development scenarios integrating multiple stakeholders and covering all the aspects of the development of complex aeronautical systems.
+
+AGILE 4.0 is the follow up project of AGILE.
+
+AGILE 4.0 will focus on 3 main development streams of aeronautical products:
+
+    Production driven product development
+    Certification driven product development
+    Upgrade driven product development
+
+The AGILE4.0 project came to an end in February 2023.
+AFC4TR	
+
+AFC4TR is a project is to investigate the use of Active Flow Control using pulsed air blowing devices with Zero Net Mass Flux (ZNMF) to control the vortical flow on the Next Generation Civil Tilt Rotor Configuration.
+
+The AFC4TR project, financed under the European Union Funded H2020 – CleanSky2 programme under grant agreement 886718, has officially started on September 1, 2020, and has run for 28 months until December 31, 2022. AFC4TR has 2 partners, CFS Engineering and the ICube Laboratory from University of Strasbourg. The topic manager of this CleanSky2 project is Leonardo Helicopters in Italy.
+AGILE	
+
+Aircraft 3rd Generation MDO for Innovative Collaboration of Heterogeneous Teams of Experts
+
+The AGILE innovation project is granted by the European Commission. AGILE targets multidisciplinary optimization using distributed analysis frameworks. The project is set up to proof a speed up of 40% for solving realistic MDO problems compared to today’s state-of-the-art.
+
+The use cases are realistic overall aircraft design tasks for conventional, strut-braced, box-wing and BWB configurations. The scope of development:
+
+    Advanced optimization techniques and strategies
+    Techniques for collaboration
+    Knowledge-enabled information technologies
+
+The project ran from 2015 to 2018 and was part of the Horizon 2020 program.
+
+Related publications
+
+Walther, J. N.; Gastaldi, A.; Jungo, A.; Zhang, M.; Maierl, R.
+
+Integration Aspects of the Collaborative Aero-Structural Design of an Unmanned Aerial Vehicle Conference
+
+DLRK 2018 , Friedrichshafen, DE, 2018.
+
+Links | BibTeX
+
+Maierl, R.; Gastaldi, A.; Daoud, F.; Walther, J. N.; Ciampa, P. D.; Jungo, A.; Zhang, M.
+
+Aero-Structural Optimization of a Male Configuration in the AGILE MDO Framework Conference
+
+ICAS 2018 , Belo Horizonte, Brazil, 2018.
+
+Links | BibTeX
+
+Torrigiani, F.; Bussemaker, J.; Ciampa, P. D.; Fioriti, M.; Tomasella, F.; Aigner, B.; Rajpal, D.; Timmermans, H.; Savelyev, A.; Charbonnier, D.
+
+Design of the Strut Braced Wing aircraft in the AGILE Collaborative MDO Framework Conference
+
+ICAS 2018 , Belo Horizonte, Brazil, 2018.
+
+Links | BibTeX
+
+Drougard, Malo
+
+Computer-Aided Design for Aircraft Masters Thesis
+
+EPFL - CFS Engineering, 2018.
+
+Links | BibTeX
+
+Jungo, A.; Zhang, M.; Vos, J. B.; Rizzi, A. W.
+
+Benchmarking New CEASIOM with CPACS Adoption for Aerodynamic Analysis and Flight Simulation Journal Article
+
+In: Aircraft Engineering and Aerospace Technology, vol. 90, no. 4, 2018.
+
+Links | BibTeX
+
+Zhang, M.; Jungo, A.; Gastaldi, A.; Melin, T.
+
+Aircraft Geometry and Meshing with Common Language Schema CPACS for Variable-Fidelity MDO Applications Journal Article
+
+In: Aerospace, vol. 5, no. 2, 2018.
+
+Abstract | Links | BibTeX
+
+Charbonnier, D.; Vos, J. B.; Prakasha, P. S.; Mirzoyan, A.; Savelyev, A.; Vecchia, P. Della
+
+Low Speed Take-Off Aerodynamic Analysis. Conference
+
+vol. Paper 272, 6th CEAS Air & Space Conference Aerospace Europe , Bucharest, Romania, 2017.
+
+Abstract | Links | BibTeX
+
+Zhang, M.; Jungo, A.; Bartoli, N.
+
+Disciplinary Data Fusion for Multi-Fidelity Aerodynamic Application. Conference
+
+vol. Paper 953, 6th CEAS Air & Space Conference Aerospace Europe , Bucharest, Romania, 2017.
+
+Abstract | Links | BibTeX
+
+Gastaldi, Alessandro
+
+Development of a Double-Lattice Method Program for Aeroelastic Analysis in Conceptual Aircraft Design. Masters Thesis
+
+EPFL – CFS Engineering, 2017.
+
+Links | BibTeX
+
+Zhang, M.; Rizzi, A. W.; Jungo, A.; Vos, J. B.
+
+Automated Meshing and Data Fusion applied to create Aerodataset for AGILE DC-1 Configuration. Conference
+
+6th EASN Workshop , Porto, Portugal, 2016.
+
+Links | BibTeX
+
+Jungo, A.; Vos, J. B.; Zhang, M.; Rizzi, A. W.
+
+Benchmarkig New CEASIOM with CPACS Adoption for Aerodynamic Analysis and Flight Simulation. Conference
+
+6th SCAD & READ Workshop , Warsaw, Poland, 2016.
+
+Links | BibTeX
+AFLoNext	
+
+AFLoNext was a four-year EC Level 2 project with the objective of proving and maturing highly promising flow control technologies for novel aircraft configurations to achieve a quantum leap in improving aircraft’s performance and thus reducing the environmental footprint. The project consortium was composed of forty European partners from fifteen countries. The work has been broken down into seven work packages.
+
+The AFLoNext concept is based on six Technology Streams which cluster the targeted technologies and their associated contributions to advanced aircraft performance as follows:
+
+    Hybrid Laminar Flow Control (HLFC) technology applied on fin and wing for friction drag reduction and thus performance increase in cruise conditions.
+    Flow control technologies to enable more aggressive outer wing design for novel aircraft configurations, thereby improving the performance and the loads situation in low and high speed conditions.
+    Technologies for local flow separation control applied in wing/pylon junction to improve the performance and loads situation mainly in take-off and landing conditions.
+    Technologies to control the flow conditions on wing trailing edges thereby improving the performance and loads situation in the whole operational domain.
+    Technologies to mitigate airframe noise during landing generated on flap and undercarriage and through mutual interaction of both.
+    Technologies to mitigate/control vibrations in the undercarriage area which are caused by highly unsteady or inhomogeneous inflow conditions in take-off and landing conditions.
+
+AFLoNext aimed to prove the engineering feasibility of the HLFC technology for drag reduction on fin in flight test and on wing by means of large scale testing. The project showed also engineering feasibility for vibrations mitigation technologies for reduced aircraft weight and noise mitigation technologies.
+
+The peculiarity of the AFLoNext proposal in terms of holistic technical approach and efficient use of resources becomes obvious through the joint use of a flight test aircraft as common test platform for the above mentioned technologies.
+
+To improve aircraft performance along the whole flight regime, locally applied active flow control technologies on wing and wing/pylon junction were qualified in wind tunnels or by means of lab-type demonstrators.
+
+Related publications
+
+Tomac, M.; Rizzi, A. W.; Charbonnier, D.; Vos, J. B.; Jirasek, A.; Winkler, S-H. Pengand A.; Allen, A.; Wissocq, G.; Puigt, G.; Dandois, J.; Abarca-Lopez, R.
+
+Unsteady Aero-Loads from Vortices Shed on A320 Landing Gear Door: CFD compared to flight tests Conference
+
+vol. AIAA-2016-0803, AIAA Scitech 2016 , San Diego, 2016.
+
+Links | BibTeX
+ATAAC	
+
+ATAAC (Advanced Turbulence Simulation for Aerodynamic Application Challenges)
+
+The ATAAC project aims at improvements to Computational Fluid Dynamics (CFD) methods for aerodynamic flows used in today’s aeronautical industry. The accuracy of these is limited by insufficient capabilities of the turbulence modelling / simulation approaches available, especially at the high Reynolds numbers typical of real-life flows. As LES will not be affordable for such flows in the next 4 decades, ATAAC focuses on approaches below the LES level, namely Differential Reynolds Stress Models (DRSM), advanced Unsteady RANS models (URANS), including Scale-Adaptive Simulation (SAS), Wall-Modelled LES, and different hybrid RANS-LES coupling schemes, including the latest versions of DES and Embedded LES. The resources of the project will be concentrated exclusively on flows for which the current models fail to provide sufficient accuracy, e.g. in stalled flows, high lift applications, swirling flows (delta wings, trailing vortices), buffet etc. The assessment and improvement process will follow thoroughly conceived roadmaps linking practical goals with corresponding industrial application challenges and with modelling/simulation issues through “stepping stones” represented by appropriate generic test cases
+
+The final goals of ATAAC are:
+
+    to recommend one or at most two “best” DRSM for conventional RANS and URANS
+    to provide a small set of hybrid RANS-LES and SAS methods that can be used as “reference” turbulence-resolving approaches in future CFD design tools
+    to formulate clear indications of areas of applicability and uncertainty of the proposed approaches for aerodynamic applications in industrial CFD.
+
+Contributing to reliable industrial CFD tools, ATAAC will have a direct impact on the predictive capabilities in design and optimisation, and directly contribute to the development of Greener Aircraft.
+FAST20XX	
+
+FAST20XX (Future High-Altitude High-Speed Transport 20XX)
+
+The current project aims at the investigation and development of technologies and steps necessary for approaches to conquer the grey zone between aeronautics and space in Europe, and thus to set the foundation of a new paradigm for transportation in the long term. The underlying concepts considered are a) a European space plane based on an airplane launch approach to advance European know how in this area, based essentially on a ballistic flight experience using hybrid propulsion, and b) the same space plane envisioned to evolve into suborbital point-to-point long-distance transport in very short times by using high-energy propulsion. An alternative, vertically starting two-stage rocket space vehicle system concept is used to identify technologies required for suborbital ultra-fast transportation. The concepts will be addressed separately and in relation to each other as well as with those considered in other EC projects, exploiting similarities and synergies wherever possible. The concepts can be classified with near term and very long term realisation capabilities, and will be evaluated according to the maturity of underlying technology, inherent risk, sustained operations, and cost. All concepts and technologies will be considered with respect to environmental issues. Some activities concern the leagal issues and those of suitable space ports. Due to the recent agreement with Virgin Galactic, it is quite natural to consider the ESRANGE facility in Sweden an excellent candidate for a starting place of experimental high-altitude high-speed flights.
+
+Thanks to the Chimera method and 6DoF modeler available within NSMB, CFS Engineering investigated the separation of the spacecraft from its carrier aircraft by mean of unsteady simulations.
+Under-wing separation of the spacecraft from its carrier aircraft 
+RASTAS SPEAR	
+
+RASTAS SPEAR (RAdiation-Shapes Thermal protection investigAtionS for high-SPeed EArth Re-entry)
+
+Strengthening of Space foundations / Research to support space science and exploration – SPA.2009.2.1.01 Space Exploration, the actions proposed on RASTAS SPEAR project try to enlarge the basic capabilities on few known topics with low Technology Readiness Level and to strengthen European Industry and Research for coming or future Space Exploration missions with focus on Sample Return Missions like Marco Polo or Mars Sample return. The project does not analyse a specific mission but deals with crucial “bricks” to be well mastered for the design of a Capsule entering in the atmosphere with high speed (more than 10 km/s).
+
+These necessary bricks are:
+
+1) To investigate on the available ground facilities and elaborate a proposal to improve these facilities in order to simulate in-flight conditions on ground.
+
+2) to investigate and develop new and innovative methods, materials and systems for joining ablative blocks (tiles) together to produce a complete Thermal Protection System (TPS) for sample-return missions and validate them by tests with CIRA’s Scirocco and DLR arcjet facility.
+
+3) to identify and test damping, energy-absorbing systems to allow survival of the Capsule Payload (collected Samples from planets…)
+
+4) to analyse the impact of ablation (and thus Capsule shape change) on the flight mechanics.
+
+5) to investigate and test impact of surface roughness on the heat transfer between the flow field and the capsule heat shield. The return of invest for the European Community is a European capability to design carefully a Re-entry capsule with focus on mass and thus on mission cost.
+SimSAC	
+
+SimSAC (Simulating aircraft stability and control characteristics for use in conceptual design) was an FFP6 project running from 2006 to 2009.
+
+Present trends in aircraft design towards augmented-stability and expanded flight envelopes call for an accurate description of the non-linear flight-dynamic behaviour of the aircraft in order to properly design the Flight Control System (FCS). Hence th e need to increase the knowledge about stability and control (S&C) as early as possible in the aircraft development process in order to be “First-Time-Right” with the FCS design architecture. FCS design usually starts near the end of the conceptual design phase when the configuration has been tentatively frozen and experimental data for predicted aerodynamic characteristics are available. Up to 80% of the lifecycle cost of an aircraft is incurred during the conceptual design phase so mistakes m ust be avoided.
+
+To meet these challenges SimSAC develops along two major axes:
+
+    Creation and implementation of a simulation environment, CEASIOM, for conceptual design sizing and optimisation suitably knitted for low-to-high-fidelity S&C analysis
+    An improved pragmatic mix of numerical tools benchmarked against experimental data. Key objectives are: establish formalised geometry construction protocols to enable varying fidelity AeroModels, construct the CEASIOM system for S&C de sign and assessment at three levels of fidelity, including low-fidelity aero-elasticity effects, benchmark each numerical tool using established and widely recognized experimental data for existing configurations, conventional and unconventional, test and assess CEASIOM by undertaking a selection of design exercises of two types.
+
+Achieving these objectives will advance the state-of-the-art in computer-aided concept design suitable for procuring economically amenable and ecologically friendly designs.
+SMS	
+
+The Smart Morphing & Sensing – SMS project is a multi-disciplinary upstream project that employs intelligent electro-active actuators that will modify the lifting structure of an aircraft and to obtain the optimum shape with respect to the aerodynamic performance (high lift & low drag). This will be accomplished using a new generation of fiber optics based sensors allowing distributed pressure measurements and in-situ real-time optimisation of the aerodynamic characteristics. This will allow to attenuation of flow separation and nuisance instabilities such as aileron flutter and also to reduce trailing-edge noise and other vibration sources in flight, coming from interactions between wing and fuselage and engine or from critical meteorological phenomena as gusts, having major impact on safety.
+
+The SMS project associates the following methods that will be coupled in a multi-disciplinary environment :
+
+    Advanced integrated aeroelastic design using High-Fidelity CFDSM (Computational Fluid Dynamics-Structural Mechanics)
+    Advanced distributed sensing using a new generation of high-fidelity fiber optics sensors
+    Advanced experimental techniques to provide data together with the high-fidelity simulations for the iterative feedback of the controller design to be used for the optimisation of the morphing flap of an A320 type wing. These experimental techniques will also be used as a basis for the validation of both the novel actuation and sensing systems via wind tunnel tests at subsonic (take-off and landing) and transonic (cruise) speeds.
+    Controller Design by appropriate Flight Control Commands (FCC), to actuate the electro-active materials properties in order to enable a real-time in-situ optimisation of the final prototypes in reduced scale and large scale.
+    The SMS project is unique thanks to its strong multidisciplinary character and degree of innovation.
+
+
+## ESA Projects
+
+CFS Engineering participated in several ESA Projects through past years. CFSE work in these projects concerns mainly space re-entry and all problematics link to it, including:
+
+    Shock waves
+    Heat transfer
+    Particles ejection
+    Stability (6 DoF)
+
+Ongoing projects
+Mars Entry and Descent System	
+
+Since May 2025, CFS Engineering has been participating in an ESA-funded project focused on the development of a Mars Entry and Descent System. CFD simulations will be performed at points throughout the trajectories. This will provide a complete aerodynamic database, showing variation with Mach and angle of attack. CFS Engineering will reconstruct wind tunnel tests and will rebuild the T-IBU dynamic stability test at high subsonic/transonic conditions.
+CFD4SALTO	
+
+The CFD4SALTO project started in December 2023, and permits CFS Engineering to continue the activities it performed on re-usable launch vehicles in the EU funded H2020 project RETALT. The CFD4SALTO project will be performed in collaboration with the Horizon Europe funded project SALTO – reuSable strAtegic space Launcher Technologies & Operations. The CFD4SALTO project is lead by DLR in Cologne. CFS Engineering will perform CFD computations for the generation of the aerodynamic databases for the SALTO T3 Vehicle. In addition CFS Engineering will perform CFD computations to support the Wind tunnel testing at DLR in Cologne, as well perform CFD simulations to extrapolate wind tunnel data to flight conditions. The project will run for 3 years.
+
+    LinkedIn
+
+Past projects
+Hot Plumes	
+
+The successful development of launch vehicles depends on finding solutions in the critical and challenging areas of propulsion and aero-thermodynamics, which are the key elements of any launch vehicle. In the past aerodynamic and aero-thermodynamic development work was almost exclusively based on the use of engineering and empirical methods. Today the use of Computational Fluid Dynamics (CFD) has matured to the point where it can provide valuable physics based input where in the past empirical or engineering methods required to strongly simplifying the physics involved. Although CFD based methods are considered as the best solution to accelerate and refine the design process of launch vehicles, CFD methods have their own shortcomings and limitations. First, CFD simulations are time consuming, in particular for unsteady flow simulations. Second CFD solvers employ physical models, as for example for turbulence and combustion. Although much progress has been made in turbulence modelling for unsteady flows over the last 15 years, uncertainties in computed results remain important. Combustion modelling, and in particular the influence of turbulence on the combustion process, is an area where still much research is needed. When using a solid propellant additional complexities arise due to the presence of particles in the exhaust gases, and the importance of radiation phenomena that influence the combustion process.
+The hot plume project is mainly concerned with the modelling of the after body flow of launch vehicles (also called the base flow region). This flow is characterized by large regions of unsteady separated flow induced by the abrupt changes in geometry of the vehicle. In this region hot gases from the nozzle exit mix with the cold flow coming around the launch vehicle leading to very complex aerodynamic phenomena which today are only poorly understood. As a result there exists a large area of uncertainty in launch vehicle design.
+A well-known example is the base flow buffeting experienced on the Ariane5 launcher during flight: unsteady pressure fluctuations in the base region generated unexpected high side loads on the nozzle. As a result the nozzle deforms and the launch vehicle cannot be used at full capacity.
+Over the past 15 years a large number of experimental and numerical studies were performed to better understand the complex flow phenomena in the base region. However, wind tunnel tests in Europe use cold plumes for the flow from the nozzle exit (jet-on conditions), but in-flight measurements on the Ariane5 and on the inaugural flight of VEGA have shown that this approach underestimates the base pressure and hence over estimates the vehicle drag. Furthermore, measurements during the first flight of VEGA showed that the predictions performed in the design phase largely over-predict heat loads observed in flight. This implies an influence of the plume temperature on the complex flow field surrounding the base region, which in turn implies an uncertainty in the heat loads and fluctuating loads on the nozzle itself.
+
+In the Hot Plume project (financed by the European Space Agency) the NSMB CFD code will be extended to permit the numerical simulation of hot gases with particles. In particular the following models will be implemented:
+• chemistry models (frozen, equilibrium and non-equilibrium) for the simulation of hot plumes
+• a Lagrangian particle tracking model to track solid particles coming out of the nozzle exit from VEGA type of launch vehicles
+• a simple radiation model for solid particles
+The Hot Plume project focuses on a VEGA type of launcher and of particular interest is the first stage engine firing in the transonic regime (Mach = 0.8). However, the extensions made to the CFD tool are applicable to other launch vehicles including retro-jet firing for stage separation with multiple plumes.
+Flight conditions – no particles – no radiation
+Flight conditions – particles – P1 model
+IXV Post Flight	
+
+The IXV Post-Flight Analysis carried out by CFSE is made under the FLPP program and started in December 2018. The objectives of this project are to better understand different phenomena observed during the IXV flight, to exploit the data measured during flight (aerodynamic forces, surface pressures and temperatures) in order to validate and improve design tools (including Computational Fluid Dynamics (CFD) tools). The overall goal is to improve the design of future re-entry vehicles, and in particular the Space Rider in the short term.
+EDL (Entry Descent & Landing)	
+
+The planet Mars always attracted a large interest since humans were capable of sending capsules into space. Already in the 1960’s both the Russians and Americans launched several vehicles to the planet Mars, some of them with the objective to make photographs, others with the objective to land on the planet. Many of these missions failed, but some of them were rather successful. This continued in the 1970’s with the first successful landing in 1971 by a Russian lander, whoever stopped transmission after 15 seconds. Mars exploration was quiet in the 1980’s but started again in the 1990’s and continued since then. Today discussions are underway to launch human exploration missions to Mars in the 2030- 2040 time frame.
+
+Sending vehicles to Mars presents several challenges. The Mars atmosphere will generate substantial aerodynamic heating, but does not permit to reduce the terminal descent velocity sufficiently to allow for a safe landing. The Mars atmosphere density is approximately about 1% of the earths atmosphere, and re-entry vehicles reach subsonic conditions at much lower altitudes compared to Earth re-entry. This puts severe constraints not only on the re-entry system but also on the regions that can be reached on the planet. The second challenge, in particular for landing missions, concerns the surface of the planet. The Mars surface is a complex terrain covered by large rocks and craters, and no detailed information is available. In addition the several times yearly large dust storm blow over the planet, making landing hazardous, reducing visibility and the possibility to re-charge batteries using solar panels.
+
+In the frame of the ESA Mars Precision Lander project an aero-thermodynamic assessment is made of a spike shape entry system for a ground penetrator mission. CFS Engineering performed a bunch of CFD simulations using NSMB on the Entry Descent and Landing (EDL) configuration proposed in this project. Steady CFD simulations for the generation of the Aerodynamic Data Base (AEDB) and Aero-Thermodynamic Data base (ATDB) for the EDL system, steady CFD simulations for the AEDB generation of the penetrator alone, as well as unsteady CFD simulations for the penetrator system and the penetrator alone to determine the stability derivatives have been performed during this project.
+Mach number distribution through the symmetry plane for EDL system – Angles of attack 0, 2, 5 and 15 degrees
+Space Rider	
+
+CFD repository generation for the Space Rider vehicle, with unsteady simulations for dynamic derivatives assessment (pitching and plunging forced oscillations) in transonic regime, and with steady simulation for INCAS Wind Tunnel Tests rebuilding in subsonic to supersonic regimes.
+Marco Polo	
+
+The objective of the computational campaign within the framework of the MarcoPolo-R Earth Re-Entry Capsule Dynamic Stability Characterization project, is to apply high-fidelity Computational Fluid Dynamics (CFD) methods to determine the dynamic derivatives of the Earth Re-entry Capsule (ERC) in the subsonic-transonic flow regime.
+
+In a first step, the selected computational approach has been validated against subsonic free flight tests performed in the VMK experimental facility (vertical wind tunnel) at DLR.
+
+The second step of the CFD activities has been to perform dedicated computations for extrapolation-to-flight conditions, and then for flight predictions of selected subsonic conditions in order to populate the aerodynamic database (AEDB) in the trajectory portion that is not covered by the ground tests (0.5<M<0.9).
+Free movement of the MarcoPolo capsule in a jet flow or uniform flow  
+ARV	
+
+ARV project (ATV evolution: Advanced Reentry Vehicle)
+
+The very successful Jules Verne ATV mission has highlighted many new technologies and capabilities that can be used and adapted in the future for developing new spacecraft, making use of additional European know-how, such as atmospheric reentry technologies. Such development could be of great strategic importance for Europe’s role in human spaceflight endeavours in low-Earth orbit and for future exploration missions, leading to an autonomous launch and return capabilities to and from orbit.
+Supersonic regime
+Hypersonic regime
+IXV	
+
+The ultimate verification of a re-entry vehicle design is in-flight simulation with the help of experimental vehicles or a prototype. Such a flight will permit the validation of computational simulation tools and the verification and improvement of ground-to-flight extrapolation methods. The ESA Future Launchers Preparatory Program (FLPP) was conceived to provide a framework for, among other technology challenges, the development of the Intermediate eXperimental Vehicle (IXV). The IXV project was initiated in 2005 by ESA after analysis and comparison of different ESA and national concepts a slender lifting body configuration was selected as IXV geometry to permit Europe to gain experience with aerodynamic controlled re-entry.
+
+Other objectives of the IXV project were technology experimentation (verifying the performance of advanced TPS systems and hot structures during real flight), technology validation (gathering data to investigate aero-thermodynamic phenomena in the hypersonic flight regime).
+
+CFS carried out a large number of numerical simulations for different flight data points with and without chemistry, Wind Tunnel Rebuilding, Aerodynamic Data Base and Aero-Thermal Data Base generation. Building of the HAEDB. Study of aeroshape evolution effects. Several new chemistry models were implemented to assess the uncertainty of calculated results with respect to the chemistry models used.
+
+During the IXV project (from 2007 until 2013) over 400 CFD simulations were made by CFSE.
+
+The IXV Vehicle was successfully launched on February 11, 2015 using a VEGA-launcher. The vehicle reached an altitude of 412 km after which it started to descend, entering the earth atmosphere at 120 km with a speed of about 7.5 km/s. The IXV glided over the Pacific Ocean before the landing parachutes were opened to slow down the vehicle before splash down in the Ocean of the vehicle.
+IXV Wind Tunnel Testing rebuilding – ONERA F4 facility
+IXV Micro-aerodynamics – RCS effects (OFF)
+IXV Micro-aerodynamics – RCS effects (ON)
+ARD	
+
+The Atmospheric Re-entry Demonstrator (ARD) was launched by the third flight of Ariane 5 in 1998. CFS Engineering participated in the aero-thermodynamic studies for the analysis of the flight results. Particular attention was focused on the analysis of differences in pre-flight prediction and actual flight data
+
+This study was financed by the European Space Agency (ESA), and was managed by Aerospatiale-Matra Launchers.
+
+The project was successfully completed in January 2001, but led to additional projects financed by ESA. For more the history and on-going interest in ARD, please see ESA-Bulletin 109.
+
+Related publications
+
+Vos, J. B.; Gehri, A.; Benedetti, G.; Marwege, A.
+
+Aerodynamic Data Base Generation for a Re-usable Launcher Configuration Conference
+
+FAR2025 , Arcachon, 2025.
+
+Links | BibTeX
+
+Vos, J. B.; Charbonnier, D.
+
+The importance of Bow Shock Adaption in CFD simulations for Hypersonic Flows Conference
+
+FAR2019 , Monopoli, 2019.
+
+Links | BibTeX
+
+Charbonnier, D.; Vos, J. B.
+
+Determination of Dynamic Derivatives of Re-entry Vehicles using Unsteady CFD Conference
+
+FAR2019 , Monopoli, 2019.
+
+Links | BibTeX
+
+Vos, J. B.; Bourgoing, A.; Soler, J.
+
+Earth re-entry capsule CFS simulations taking into account surface roughness and mass injection at the wall Journal Article
+
+In: vol. 5, no. 1, 2016.
+
+Links | BibTeX
+
+Charbonnier, D.; Vos, J. B.; Clopeau, E.; Ferracina, L.; Maraffa, L.
+
+MarcoPolo-R ERC Dynamic Stability Characterization: Computational Campaign Conference
+
+ESA ATD , Lisbon, 2015.
+
+Links | BibTeX
+
+Clemente, M. Di; Trifoni, E.; Walpot, L.; Thoemel, J.; Vos, J. B.; Guelhan, A.; Thiele, T.; Pereira, C.
+
+Aerothermal Rebuilding of Plasma Wind Tunnel Tests on the EXPERT Capsule Open Flap Conference
+
+vol. AIAA-2012-3003, AIAA Aviation 2012 , New Orleans, 2012.
+
+Links | BibTeX
+
+
+## Other Projects
+
+CFSE has been involved in several project linked to many disciplines, such as:
+
+    Aerodynamics,
+    Hydrodynamics,
+    Hydraulics (pumps),
+    Biofluid dynamics (cardiac flow),
+    Natural flow (wind, convection).
+
+Some of theses projects are listed bellow.
+
+Ongoing projects
+F/A 18	
+
+The Swiss Airforce is operating the F/A-18 C/D aircraft since 1997. The maneuver spectrum for the Swiss usage of this aircraft is about three times more severe than the US Navy design, resulting in a different structural design. As a consequence an Aircraft Structural Integrity Program (ASIP) study was carried out by Boeing, and to validate this study a Full Scale Test Facility was build at RUAG Aviation and operated from 2003 to 2005. To better understand the aerodynamic loads on the aircraft RUAG Aviation looked into methods to generate these loads for different flight conditions.
+
+A large investment was made in further developing the NSMB Navier Stokes Multi Block (NSMB) Computational Fluid Dynamics (CFD) code and in particular its extension for Fluid Structure Interaction (FSI) simulations. Procedures were developed for both static and dynamic Fluid Structure Interaction (FSI). Static FSI was only used to deform the wing of the F/A-18 fighter.
+
+Dynamic FSI simulations were made to study vertical tail buffeting, and employed a linear structural model based on a modal formulation. In this case the CFD solver and the Computational Structural Mechanics (CSM) solver are tightly coupled.
+
+The F/A-18 studies started in 2002 using a grid of around 7 Million points. Since a 2013 CFSE and RUAG use the so called 3rd generation grid that employs the chimera method for easy change of control surface deflections and for adding or removing loads (fuel tanks and weapons). This grid has about 50 Million points for half a configuration.
+
+The need to provide quickly aerodynamic loads for statically deformed wings led to the decision to couple the NSMB CFD solver with the open-source Finite Element Analysis environment B2000++. This has led to the possibility to perform both static and dynamic FSI simulations using either a modal or a FEM approach without the need to interrupt the simulation.
+
+The main objective of the F/A-18 simulations is to generate aerodynamic loads on the different aircraft components.
+
+CFS Engineering collaborates actively with RUAG and Elomatic for a major part of F/A-18 simulations.
+
+Related publications
+
+Vos, J. B.; Charbonnier, D.; Siikonen, T.; Salminen, E.; Gehri, A.; Stephani, P.
+
+Swiss/Finnish Collaboration on Aero-elastic Simulations for the F/A-18 Fighter Conference
+
+vol. AIAA-2018-3642, AIAA Aviation 2018 , Atlanta, 2018.
+
+Links | BibTeX
+
+Vos, J. B.; Charbonnier, D.; Ludwig, T.; Merazzi, S.; Gehri, A.; Stephani, P.
+
+Recent Developments on Fluid Structure Interaction in the Navier Stokes Multi Block (NSMB) CFD solver Conference
+
+vol. AIAA-2017-4458, AIAA Aviation 2017 , Denver, 2017.
+
+Links | BibTeX
+
+Guillaume, M.; Gehri, A.; Stephani, P.; Vos, J. B.; Mandanis, G.
+
+F/A-18 vertical buffeting calculations using unsteady fluid structure interaction Journal Article
+
+In: "The Aeronautical Journal ", vol. 115, no. 1167, 2011.
+
+Links | BibTeX
+
+Guillaume, M.; Gehri, A.; Stephani, P.; Vos, J. B.; Mandanis, G.
+
+Fluid Structure Interaction Simulation on the F/A-18 Vertical Tail Conference
+
+vol. AIAA-2010-4613, AIAA Aviation 2010 , Chicago, 2010.
+
+Links | BibTeX
+
+Past projects
+Heart simulation	
+
+Several studies have been performed since 2012 in collaboration with PD Dr. med. Denis Berdajs regarding flow characteristics within the heart. The blood flow in right ventricule, aortic valve, aortic root, and currently for mitral valve, has been investigated by means of computational fluid dynamics with different levels of geometrical modelling. The movable wall technique has been developed to take into account deformations starting from a sample of simple geometric characteristics, and interpolations between the different steps of the cardiac cycle.
+
+Related publications
+
+Berdajs, D.; Mosbahi, S.; Ferrari, E.; Charbonnier, D.; von Segesser, L. K.
+
+Aortic Valve Pathology as a Predictive Factor for Acute Aortic Dissection Journal Article
+
+In: The Annals of thoracic surgery, vol. 104, no. 4, pp. 1340-1348, 2017.
+
+Abstract | Links | BibTeX
+
+Berdajs, D.; Mosbahi, S.; Strano, F.; Forro, Z.; Burki, M.; von Segesser, L. K.
+
+Impact of synthetic elements on aortic root haemodynamics: computed fluid dynamics of aortic root reconstruction and valve reimplantation Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 51, no. 3, pp. 432-441, 2017.
+
+Abstract | Links | BibTeX
+
+Berdajs, D.; Mosbahi, S.; Forro, Z.; Gerber, C.; Burki, M.; von Segesser, L. K.
+
+Aortic root haemodynamics following David procedure: numerical analysis of 3-dimensional haemodynamics Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 49, no. 6, pp. 1588-1598, 2016.
+
+Abstract | Links | BibTeX
+
+Berdajs, D.; Mosbahi, S.; Forro, Z.; Gerber, C.; Ferrari, E.; Charbonnier, D.; von Segesser, L. K.
+
+Numerical analysis of the 3-dimensional aortic root morphology during the cardiac cycle Journal Article
+
+In: European Journal of Cardio-thoracic Surgery, vol. 49, no. 4, pp. 1213-1221, 2016.
+
+Abstract | Links | BibTeX
+
+Berdajs, D.; Mosbahi, S.; Vos, J. B.; Charbonnier, D.; Hullin, R.; von Segesser, L. K.
+
+Fluid dynamics simulation of right ventricular outflow tract oversizing Journal Article
+
+In: Interactive Cardiovascular and Thoracic Surgery, vol. 21, no. 2, pp. 176-182, 2015.
+
+Abstract | Links | BibTeX
+
+Berdajs, D.; Mosbahi, S.; Charbonnier, D.; Hullin, R.; von Segesser, L. K.
+
+Analysis of flow dynamics in right ventricular outflow tract Journal Article
+
+In: Journal of Surgical Research, vol. 197, no. 1, pp. 50-57, 2015.
+
+Abstract | Links | BibTeX
+
+Mosbahi, S.; Mickaily-Huber, E.; Charbonnier, D.; Hullin, R.; Burki, M.; Ferrari, E.; von Segesser, L. K.; Berdajs, D.
+
+Computational fluid dynamics of the right ventricular outflow tract and of the pulmonary artery: a bench model of flow dynamics Journal Article
+
+In: Interactive Cardiovascular and Thoracic Surgery, vol. 19, no. 4, pp. 611-616, 2014.
+
+Abstract | Links | BibTeX
+Strut Braced Wing (AGILE)	
+
+In the frame of the European Funded H2020 project AGILE (Aircraft 3rd Generation MDO for Innovative Collaboration of Heterogeneous Teams of Experts) aero-elastic simulations were made for a Strut Braced Wing aircraft. The Strut Braced Wing (SBW) aircraft has received much attention over the last 10 years due to its potential to reduce emissions. However the SBW aircraft also poses several challenges, in particular the strong coupling between aerodynamics and structures. The SBW aircraft designed in the AGILE project concerns a 90-seat passenger aircraft. Navier Stokes simulations were carried out for different wing configurations, showing that a wing with a super-critical airfoil and having a 16° sweep angle is the most efficient (compared to the initial configuration having a 0° sweep angle and a NACA009 airfoil). However these high-fidelity simulations did not take into account the deformation of the strut and the wing due to the aerodynamic loads.
+
+An aero-elastic tool chain has been set-up composed of the PROTEUS tool developed at the Delft University of Technology, the AMLoad tool developed by the Netherlands Aerospace Centre (NLR), the FSCON tool developed by SMR and the NSMB CFD solver. FSI calculations were made at different Mach numbers and at different angles of attack.
+Fire and Smoke Propagation	
+
+Internal project about fire and smoke propagation using the FDS software developed by NIST (National Institute of Standards and Technology).
+Fire Dynamics Simulator (FDS) is a computational fluid dynamics (CFD) model of fire-driven fluid flow. The software solves numerically a form of the Navier-Stokes equations appropriate for low-speed, thermally-driven flow, with an emphasis on smoke and heat transport from fires.
+Smoke propagation
+Trains	
+
+CFD simulations were made over trains to study :
+
+
+    the
+    influence of the nose design on the aerodynamic drag
+
+    the
+    influence of the cooling inlets and outlets
+
+    the
+    aerodynamic loads on the train under side winds
+
+    to
+    study the influence of the train on side walls near the track
+
+    to
+    study the influence of a passing train on people waiting on a
+    platform
+
+    to
+    study the entering of the train in a tunnel
