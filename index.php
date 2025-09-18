@@ -7,7 +7,6 @@ $manifest = file_exists($manifest_path) ? json_decode(file_get_contents($manifes
 
 function asset_url_from_manifest($file, $theme_url) {
   if (!$file) return null;
-  // manifest may include "assets/..." or just the filename
   return (strpos($file, 'assets/') !== false) ? rtrim($theme_url, '/') . '/' . $file : rtrim($theme_url, '/') . '/assets/' . $file;
 }
 
@@ -16,7 +15,6 @@ function vite_find_entry($manifest) {
     if (!empty($meta['isEntry'])) return $meta;
     if (stripos($key, 'index.html') !== false) return $meta;
   }
-  // fallback: first manifest item
   foreach ($manifest as $meta) return $meta;
   return null;
 }
