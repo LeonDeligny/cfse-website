@@ -7,6 +7,7 @@ import {
   Network,
   Plane,
   Factory,
+  Computer,
   Satellite,
   ArrowRight,
   ExternalLink
@@ -66,7 +67,7 @@ const Projects = () => {
       category: "In house software development",
       description: "Development and maintenance of advanced engineering software tools for simulation, visualization and design (CFD solvers, mesh generators...). Our work supports both internal research and external client projects, ensuring robust, scalable, and user-friendly solutions for the aerospace and industrial sectors.",
       technologies: ["NSMB Solver", "Baspl3", "b2000++", "CEASIOMpy"],
-      icon: Factory,
+      icon: Computer,
       status: "Ongoing",
       industry: "In house software development"
     }
