@@ -65,10 +65,10 @@ if command -v sudo >/dev/null 2>&1 && sudo -n true 2>/dev/null; then
   sudo find "$THEME_DIR" -type d -exec chmod 755 {} \;
   sudo find "$THEME_DIR" -type f -exec chmod 644 {} \;
 else
-  echo "Note: cannot run sudo without password. To fix permissions, run as privileged user:"
-  echo "  sudo chown -R www-data:www-data '$THEME_DIR'"
-  echo "  sudo find '$THEME_DIR' -type d -exec chmod 755 {} \\;"
-  echo "  sudo find '$THEME_DIR' -type f -exec chmod 644 {} \\;"
+  echo "Note: cannot run sudo without password."
+  chown -R www-data:www-data "$THEME_DIR"
+  find "$THEME_DIR" -type d -exec chmod 755 {} \;
+  find "$THEME_DIR" -type f -exec chmod 644 {} \;
 fi
 
 echo "Deployed to $THEME_DIR"
