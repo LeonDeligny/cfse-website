@@ -65,11 +65,12 @@ if [ -d "$TMPDIR/assets" ]; then
 fi
 
 # copy other top-level build files (index.html, robots.txt, etc.) without --delete so we do not remove files like node_modules
-rsync -a --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r --exclude='index.php' --exclude='style.css' \
-  --exclude='.vite/' --exclude='assets/' "$TMPDIR/" "$THEME_DIR/" || { echo "top-level copy failed"; exit 1; }
-
-echo "Syncing temporary copy to theme folder (preserving index.php and style.css)..."
-rsync -a --delete-after --exclude='index.php' --exclude='style.css' --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$TMPDIR/" "$THEME_DIR/" || { echo "rsync -> theme failed"; exit 1; }
+rsync -a --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r \
+  --exclude='index.php' --exclude='style.css' \
+  --exclude='.vite/' --exclude='assets/' \
+  --exclude='node_modules/' --exclude='src/' --exclude='public/' --exclude='scripts/' --exclude='.git/' \
+  "$TMPDIR/" "$THEME_DIR/" || { echo "top-level copy failed"; exit 1; }
+echo "Completed targeted sync ('.vite' and 'assets' replaced; top-level files updated)."
 
 # cleanup build moved into theme if we produced it and moved it
 if [ "$BUILD_PERFORMED" -eq 1 ] && [ "$REPO_DIR" != "$THEME_DIR" ]; then
