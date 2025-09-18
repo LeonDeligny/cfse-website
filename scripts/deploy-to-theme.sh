@@ -49,10 +49,10 @@ TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
 
 echo "Copying build to temporary directory..."
-rsync -a --delete --partial "$SRC_DIR/" "$TMPDIR/" || { echo "rsync -> tmp failed"; exit 1; }
+rsync -a --delete --partial --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$SRC_DIR/" "$TMPDIR/" || { echo "rsync -> tmp failed"; exit 1; }
 
 echo "Syncing temporary copy to theme folder (preserving index.php and style.css)..."
-rsync -a --delete-after --exclude='index.php' --exclude='style.css' "$TMPDIR/" "$THEME_DIR/" || { echo "rsync -> theme failed"; exit 1; }
+rsync -a --delete-after --exclude='index.php' --exclude='style.css' --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$TMPDIR/" "$THEME_DIR/" || { echo "rsync -> theme failed"; exit 1; }
 
 # cleanup build moved into theme if we produced it and moved it
 if [ "$BUILD_PERFORMED" -eq 1 ] && [ "$REPO_DIR" != "$THEME_DIR" ]; then
@@ -66,9 +66,9 @@ if command -v sudo >/dev/null 2>&1 && sudo -n true 2>/dev/null; then
   sudo find "$THEME_DIR" -type f -exec chmod 644 {} \;
 else
   echo "Note: cannot run sudo without password."
-  chown -R www-data:www-data "$THEME_DIR"
   find "$THEME_DIR" -type d -exec chmod 755 {} \;
   find "$THEME_DIR" -type f -exec chmod 644 {} \;
+  echo "Owner not changed. If the webserver requires specific owner, ask host to chown $THEME_DIR to the web user."
 fi
 
 echo "Deployed to $THEME_DIR"
