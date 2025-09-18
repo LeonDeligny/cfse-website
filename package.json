@@ -10,7 +10,6 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "postinstall": "npm run dev",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -53,8 +52,6 @@
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
-    "next": "^15.5.3",
-    "next-themes": "^0.3.0",
     "react": "^19.1.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^19.1.1",
