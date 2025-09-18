@@ -2,7 +2,7 @@
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="${1:-$(pwd)}"
-THEME_DIR="~/web/wp-content/themes/cfse-website"
+THEME_DIR="${THEME_DIR:-$REPO_DIR}"
 BUILD_DIR="dist"
 
 echo "Repo: $REPO_DIR"
