@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 REPO_DIR="${1:-$(pwd)}"
-THEME_DIR="wp-content/themes/cfse-website"
+THEME_DIR="/wp-content/themes/cfse-website"
 
 cd "$REPO_DIR"
 # install & build (server may need --legacy-peer-deps)
