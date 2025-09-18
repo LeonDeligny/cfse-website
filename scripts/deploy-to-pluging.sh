@@ -25,15 +25,6 @@ else
   exit 1
 fi
 
-# ensure target folder exists (fail with helpful message if permission denied)
-if ! mkdir -p "$WP_PLUGINS/$PLUGIN" 2>/dev/null; then
-  echo "Cannot create target plugin directory: $WP_PLUGINS/$PLUGIN" >&2
-  echo "Options:" >&2
-  echo "  - run with a writable WP_PLUGINS path: WP_PLUGINS=/path/to/wp/wp-content/plugins ./scripts/deploy-to-pluging.sh" >&2
-  echo "  - run with sudo if allowed: sudo WP_PLUGINS=$WP_PLUGINS ./scripts/deploy-to-pluging.sh" >&2
-  exit 1
-fi
-
 # copy/rename plugin file
 cp -f "$PLUGIN_PHP_SRC" "$WP_PLUGINS/$PLUGIN/$PLUGIN.php"
 
