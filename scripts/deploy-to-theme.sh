@@ -51,6 +51,23 @@ trap 'rm -rf "$TMPDIR"' EXIT
 echo "Copying build to temporary directory..."
 rsync -a --delete --partial --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$SRC_DIR/" "$TMPDIR/" || { echo "rsync -> tmp failed"; exit 1; }
 
+echo "Syncing build into theme (preserving index.php and style.css and avoiding deleting unrelated files)..."
+# sync .vite (replace entirely)
+if [ -d "$TMPDIR/.vite" ]; then
+  mkdir -p "$THEME_DIR/.vite"
+  rsync -a --delete --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$TMPDIR/.vite/" "$THEME_DIR/.vite/" || { echo ".vite sync failed"; exit 1; }
+fi
+
+# sync assets (replace entirely)
+if [ -d "$TMPDIR/assets" ]; then
+  mkdir -p "$THEME_DIR/assets"
+  rsync -a --delete --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$TMPDIR/assets/" "$THEME_DIR/assets/" || { echo "assets sync failed"; exit 1; }
+fi
+
+# copy other top-level build files (index.html, robots.txt, etc.) without --delete so we do not remove files like node_modules
+rsync -a --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r --exclude='index.php' --exclude='style.css' \
+  --exclude='.vite/' --exclude='assets/' "$TMPDIR/" "$THEME_DIR/" || { echo "top-level copy failed"; exit 1; }
+
 echo "Syncing temporary copy to theme folder (preserving index.php and style.css)..."
 rsync -a --delete-after --exclude='index.php' --exclude='style.css' --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r "$TMPDIR/" "$THEME_DIR/" || { echo "rsync -> theme failed"; exit 1; }
 
