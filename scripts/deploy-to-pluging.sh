@@ -6,6 +6,7 @@ REPO_DIR="${1:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 PLUGIN="${PLUGIN:-cfse-website}"
 WP_PLUGINS="${2:-${WP_PLUGINS:-/home/clients/bf34dad1d93f6c3f3d631220de829f6c3f3d631220de829f6c3f3d631220de829fda/web/wp-content/plugins}}"
 BUILD_DIR="dist"
+BASE_PATH="${BASE_PATH:-/wp-content/plugins/${PLUGIN}/dist/}"
 
 echo "Repo: $REPO_DIR"
 echo "Plugin name: $PLUGIN"
