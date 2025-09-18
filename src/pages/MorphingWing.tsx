@@ -78,7 +78,7 @@ function GLBSequencePlayer({
             }
             setGltfMap((m) => ({ ...m, [i]: gltfAny }));
         } catch (e) {
-            console.warn('Failed to load', url, e);
+            console.warn('Failed to load url', url, e);
         }
     }, [gltfMap, pathPrefix]);
 
