@@ -1,7 +1,14 @@
+import { ArrowLeft } from 'lucide-react';
+
 
 const CollaborativeSystems = () => (
     <section className="py-20 bg-background min-h-screen">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+            <div className="mt-8">
+                <button className="text-primary mb-6 flex items-center" onClick={() => { window.location.href = '/#projects'; }}>
+                    <ArrowLeft className="mr-2" /> Back
+                </button>
+            </div>
             <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">Collaborative Systems of Systems</h1>
 
             <div className="flex items-center mb-8 gap-4">
@@ -21,11 +28,6 @@ const CollaborativeSystems = () => (
                     and tools will be openly published in order to foster exploitation for research
                     and industry.
                 </p>
-            </div>
-            <div className="mt-8">
-                <button className="text-primary hover:underline" onClick={() => { window.location.href = '/#projects'; }}>
-                    ← Back to Projects
-                </button>
             </div>
         </div>
     </section>

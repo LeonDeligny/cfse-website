@@ -223,8 +223,8 @@ function BiofluidPublications() {
             {publications.map((p) => (
                 <div key={p.id} className="border rounded p-3 bg-white">
                     <p className="text-sm font-medium">{p.authors}</p>
-                    <p className="text-sm text-muted-foreground">{p.title}</p>
-                    <p className="text-sm text-muted-foreground">{p.journal} {p.details}</p>
+                    <p className="">{p.title}</p>
+                    <p className="">{p.journal} {p.details}</p>
                     <div className="mt-2 flex items-center gap-3 text-sm">
                         {p.links && (
                             <a href={p.links} target="_blank" rel="noopener noreferrer" className="text-primary underline">Links</a>
@@ -275,16 +275,16 @@ const ServiceDetail = () => {
             description: 'Customized simulation solutions for specific engineering needs.',
             features: ['Biofluid Dynamics', 'Pumps', 'High-speed trains', 'Civil Engineering', 'Smart Morphing & Sensing']
         },
-        methods: {
-            title: 'Expert Methods',
-            description: 'Expert consultation on numerical methods, verification & validation, and simulation strategies.',
-            features: ['Particles Tracking', 'Separation – 6DoF', 'Chimera method', 'Sliding meshes']
-        },
-        custom: {
-            title: 'Custom Solutions',
-            description: 'Tailored simulation solutions and specialized analysis for unique engineering challenges.',
-            features: ['Custom modeling', 'Algorithm development', 'Specialized analysis', 'Reconstruct wind tunnel tests']
-        }
+        // methods: {
+        //     title: 'Expert Methods',
+        //     description: 'Expert consultation on numerical methods, verification & validation, and simulation strategies.',
+        //     features: ['Particles Tracking', 'Separation – 6DoF', 'Chimera method', 'Sliding meshes']
+        // },
+        // custom: {
+        //     title: 'Custom Solutions',
+        //     description: 'Tailored simulation solutions and specialized analysis for unique engineering challenges.',
+        //     features: ['Custom modeling', 'Algorithm development', 'Specialized analysis', 'Reconstruct wind tunnel tests']
+        // }useState
     };
 
     const svc = servicesMap[slug] || { title: 'Service', description: 'Details coming soon.', features: [] };
@@ -372,7 +372,7 @@ const ServiceDetail = () => {
                                             <OrbitControls enablePan enableZoom enableRotate />
                                         </Canvas>
                                     </div>
-                                    <div className="mt-3 text-sm text-muted-foreground">Interactive A320 model — drag to rotate, scroll to zoom.</div>
+                                    <div className="mt-3 ">Interactive A320 model — drag to rotate, scroll to zoom.</div>
                                 </div>
                             </section>
 
@@ -472,7 +472,7 @@ const ServiceDetail = () => {
                                             <OrbitControls enablePan enableZoom enableRotate />
                                         </Canvas>
                                     </div>
-                                    <div className="mt-3 text-sm text-muted-foreground">Interactive ONERA M6 model — drag to rotate, scroll to zoom.</div>
+                                    <div className="mt-3 ">Interactive ONERA M6 model — drag to rotate, scroll to zoom.</div>
                                 </div>
                             </section>
                         </div>
@@ -538,7 +538,7 @@ const ServiceDetail = () => {
                                     Design guidance and simulation of thermal protection systems (ablative and reusable), including transient heating and material response.
                                 </p>
                                 <p className="mt-4">
-                                     The ultimate verification of a re-entry vehicle design is in-flight simulation with the help of experimental vehicles or a prototype. Such a flight will permit the validation of computational simulation tools and the verification and improvement of ground-to-flight extrapolation methods. The ESA Future Launchers Preparatory Program (FLPP) was conceived to provide a framework for, among other technology challenges, the development of the Intermediate eXperimental Vehicle (IXV). The IXV project was initiated in 2005 by ESA after analysis and comparison of different ESA and national concepts a slender lifting body configuration was selected as IXV geometry to permit Europe to gain experience with aerodynamic controlled re-entry.
+                                    The ultimate verification of a re-entry vehicle design is in-flight simulation with the help of experimental vehicles or a prototype. Such a flight will permit the validation of computational simulation tools and the verification and improvement of ground-to-flight extrapolation methods. The ESA Future Launchers Preparatory Program (FLPP) was conceived to provide a framework for, among other technology challenges, the development of the Intermediate eXperimental Vehicle (IXV). The IXV project was initiated in 2005 by ESA after analysis and comparison of different ESA and national concepts a slender lifting body configuration was selected as IXV geometry to permit Europe to gain experience with aerodynamic controlled re-entry.
                                 </p>
                             </section>
 
@@ -573,7 +573,7 @@ const ServiceDetail = () => {
                                             <OrbitControls enablePan enableZoom enableRotate />
                                         </Canvas>
                                     </div>
-                                    <div className="mt-3 text-sm text-muted-foreground">Interactive MDO model — click & drag to rotate, scroll to zoom.</div>
+                                    <div className="mt-3 ">Interactive MDO model — click & drag to rotate, scroll to zoom.</div>
                                 </div>
                             </section>
 
@@ -663,12 +663,12 @@ const ServiceDetail = () => {
                                     and lower noise emissions.  CFD simulations were also made to study :
                                 </p>
                                 <ul className="mt-3 list-inside">
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of nose design on aerodynamic drag</li>
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Cooling inlet/outlet effects</li>
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Aerodynamic loads under side winds</li>
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of side walls near the track</li>
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of a passing train on people waiting on a platform</li>
-                                    <li className="flex items-center text-sm text-muted-foreground"><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of the entering of a train in a tunnel</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of nose design on aerodynamic drag</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Cooling inlet/outlet effects</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Aerodynamic loads under side winds</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of side walls near the track</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of a passing train on people waiting on a platform</li>
+                                    <li className="flex items-center "><div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>Influence of the entering of a train in a tunnel</li>
                                 </ul>
                             </section>
 

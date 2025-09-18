@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Dialog, DialogContent } from '@/components/ui/dialog';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
+import { ArrowLeft } from 'lucide-react';
 
 function FA18Publications() {
     const [bibOpen, setBibOpen] = useState(false);
@@ -95,8 +96,8 @@ function FA18Publications() {
             {publications.map((p) => (
                 <div key={p.id} className="border rounded p-3 bg-white mb-3">
                     <p className="text-sm font-medium">{p.authors}</p>
-                    <p className="text-sm text-muted-foreground">{p.title}</p>
-                    <p className="text-sm text-muted-foreground">{p.journal} {p.details}</p>
+                    <p className="">{p.title}</p>
+                    <p className="">{p.journal} {p.details}</p>
                     <div className="mt-2 flex items-center gap-3 text-sm">
                         {p.links && <a href={p.links} target="_blank" rel="noopener noreferrer" className="text-primary underline">Links</a>}
                         <button onClick={() => openBib(p.bibtex)} className="text-primary underline">BibTeX</button>
@@ -121,6 +122,11 @@ function FA18Publications() {
 const FA18 = () => (
     <section className="py-20 bg-background min-h-screen">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+            <div className="mt-8">
+                <button className="text-primary mb-6 flex items-center" onClick={() => { window.location.href = '/#projects'; }}>
+                    <ArrowLeft className="mr-2" /> Back
+                </button>
+            </div>
             <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">F/A 18</h1>
             <p className="text-lg text-muted-foreground mb-8">
                 Since 1997, the Swiss Air Force has operated the F/A-18 C/D aircraft. The Swiss Air Force's use of the aircraft involves a maneuver spectrum that is about three times more severe than the US Navy's design. This required a different structural design and prompted an Aircraft Structural Integrity Program (ASIP) study by Boeing.
@@ -151,11 +157,6 @@ const FA18 = () => (
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
-            </div>
-            <div className="mt-8">
-                <button className="text-primary hover:underline" onClick={() => { window.location.href = '/#projects'; }}>
-                    ← Back to Projects
-                </button>
             </div>
         </div>
     </section>

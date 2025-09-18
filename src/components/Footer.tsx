@@ -32,8 +32,8 @@ const Footer = () => {
               <li>Aerothermodynamics</li>
               <li>Fluid Structure Interaction</li>
               <li>Tailored Solutions</li>
-              <li>Engineering Consulting</li>
-              <li>Custom Solutions</li>
+              {/* <li>Engineering Consulting</li>
+              <li>Custom Solutions</li> */}
             </ul>
           </div>
 

@@ -1,8 +1,10 @@
 
 import { useEffect, useRef, useState, useCallback, Suspense } from 'react';
 import * as THREE from 'three';
+import { ArrowLeft } from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stage, OrthographicCamera } from '@react-three/drei';
+import { Dialog, DialogContent } from '@/components/ui/dialog';
 
 // Simple GLB sequence player that loads morphing_wing_1.glb ... morphing_wing_30.glb
 function GLBSequencePlayer({
@@ -140,6 +142,7 @@ function GLBSequencePlayer({
         }
     }, []);
 
+
     return (
         <div>
             <div className="w-full h-[420px] bg-white rounded-lg overflow-hidden shadow-lg">
@@ -179,35 +182,95 @@ function GLBSequencePlayer({
     );
 }
 
-const MorphingWing = () => (
+const MorphingWing = () => {
+    const [lightboxOpen, setLightboxOpen] = useState(false);
+    const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
+
+    const openLightbox = (src: string) => {
+        setLightboxSrc(src);
+        setLightboxOpen(true);
+    };
+
+    return (
     <section className="py-20 bg-background min-h-screen">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col md:flex-row items-start gap-6 mb-8">
-                <div className="md:w-1/2">
-                    <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">Morphing Wings for Sustainable Aviation</h1>
-                    <p className="text-lg text-muted-foreground mb-4">
-                        The BEALIVE Horizon Europe project focuses on the aerodynamic optimization of aircraft wings with oscillating actuators, inspired by biological mechanisms found in shark skin and bird wings. By studying the interaction between actuator-induced vortices and the turbulent wake, the research aims to enhance lift-to-drag performance and reduce noise.
-                        Unsteady CFD simulations are performed to analyze how varying the actuator’s amplitude and frequency influences aerodynamic efficiency. The ultimate objective is to create a “live skin” on the wing.
-                    </p>
-                    <ul className="list-disc list-inside text-lg text-muted-foreground mb-6">
-                        <li>Unsteady CFD for actuator-driven wing morphing</li>
-                        <li>Analysis of lift, drag, and noise impacts</li>
-                        <li>Design guidance for live-skin actuators</li>
-                    </ul>
-                    <div className="mt-4">
-                        <button className="text-primary hover:underline" onClick={() => { window.location.href = '/#projects'; }}>
-                            ← Back to Projects
-                        </button>
-                    </div>
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="mt-8">
+                    <button className="text-primary mb-6 flex items-center" onClick={() => { window.location.href = '/#projects'; }}>
+                        <ArrowLeft className="mr-2" /> Back
+                    </button>
+                </div>
+            <div className="mt-4">
+
+            <h1
+                className="text-3xl md:text-4xl font-bold text-primary mb-6 text-center mx-auto"
+            >Morphing Wings</h1>
+
+            <div className="grid md:grid-cols-2 md:items-start md:gap-8">
+                <div>
+                    <section className="mb-4 border rounded-lg p-4 bg-white shadow-sm">
+                        <div className="flex items-start gap-6 mb-8">
+                            <div>
+                                <h3 className="text-xl font-semibold mb-2">Morphing Wings for Sustainable Aviation</h3>
+                                <p className="text-lg mb-4">
+                                    The BEALIVE Horizon Europe project focuses on the aerodynamic optimization of aircraft wings with oscillating actuators, inspired by biological mechanisms found in shark skin and bird wings. By studying the interaction between actuator-induced vortices and the turbulent wake, the research aims to enhance lift-to-drag performance and reduce noise.
+                                    Unsteady CFD simulations are performed to analyze how varying the actuator’s amplitude and frequency influences aerodynamic efficiency. The ultimate objective is to create a “live skin” on the wing.
+                                </p>
+                                <div className="md: w-full">
+                                    {/* GLB sequence player: expects files named morphing_wing_1.glb .. morphing_wing_30.glb in public/projectimages */}
+                                    <GLBSequencePlayer count={30} pathPrefix={'/projectimages/morphing_wing_'} preload={3} fps={6} />
+                                </div>
+                                <ul className="mt-8 list-disc list-inside text-lg text-muted-foreground mb-6">
+                                    <li>Unsteady CFD for actuator-driven wing morphing</li>
+                                    <li>Analysis of lift, drag, and noise impacts</li>
+                                    <li>Design guidance for live-skin actuators</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div>
+                    <section className="mb-4 border rounded-lg p-4 bg-white shadow-sm">
+                        <div className="flex items-start gap-6 mb-8">
+                            <div className="flex-1">
+                                <h3 className="text-xl font-semibold mb-2">SMS (Smart Morphing & Sensing)</h3>
+                                <p className="text-lg mb-4">
+                                The SMS project is a multi-disciplinary upstream project that employs intelligent electro-active actuators that will modify the lifting structure of an aircraft and to obtain the optimum shape with respect to the aerodynamic performance (high lift & low drag). This will be accomplished using a new generation of fiber optics based sensors allowing distributed pressure measurements and in-situ real-time optimisation of the aerodynamic characteristics. This will allow to attenuation of flow separation and nuisance instabilities such as aileron flutter and also to reduce trailing-edge noise and other vibration sources in flight, coming from interactions between wing and fuselage and engine or from critical meteorological phenomena as gusts, having major impact on safety. 
+                                <a href="http://smartwing.org/SMS/EU/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+                                    <img
+                                        src="/projectimages/sms.webp"
+                                        alt="RETALT Logo"
+                                        className="h-24 w-24 object-contain rounded-md mx-auto"
+                                        style={{ minWidth: '13rem', minHeight: '13rem' }}
+                                    />
+                                </a>
+                                The SMS project associates the following methods that will be coupled in a multi-disciplinary environment :
+                                <ul className="mt-8 list-disc list-inside text-lg text-muted-foreground mb-6">
+
+    <li>Advanced integrated aeroelastic design using High-Fidelity CFDSM (Computational Fluid Dynamics-Structural Mechanics)</li>
+    <li>Advanced distributed sensing using a new generation of high-fidelity fiber optics sensors</li>
+    <li>Advanced experimental techniques to provide data together with the high-fidelity simulations for the iterative feedback of the controller design to be used for the optimisation of the morphing flap of an A320 type wing. These experimental techniques will also be used as a basis for the validation of both the novel actuation and sensing systems via wind tunnel tests at subsonic (take-off and landing) and transonic (cruise) speeds.</li>
+    <li>Controller Design by appropriate Flight Control Commands (FCC), to actuate the electro-active materials properties in order to enable a real-time in-situ optimisation of the final prototypes in reduced scale and large scale.</li>
+                                                        </ul>
+                            </p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
-                <div className="md:w-1/2 w-full">
-                    {/* GLB sequence player: expects files named morphing_wing_1.glb .. morphing_wing_30.glb in public/projectimages */}
-                    <GLBSequencePlayer count={30} pathPrefix={'/projectimages/morphing_wing_'} preload={3} fps={6} />
-                </div>
+            </div>
             </div>
         </div>
+        {/* Lightbox dialog for images */}
+        <Dialog open={lightboxOpen} onOpenChange={(o) => setLightboxOpen(o)}>
+            <DialogContent className="sm:max-w-xl w-full h-auto p-0 bg-transparent shadow-none">
+                {lightboxSrc && (
+                    <img src={lightboxSrc} alt="Preview" className="w-full h-auto rounded-md" />
+                )}
+            </DialogContent>
+        </Dialog>
+
     </section>
 );
+};
 
 export default MorphingWing;

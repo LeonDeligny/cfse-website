@@ -14,7 +14,7 @@ import Contact from "./components/Contact";
 import Collaborators from "./components/Collaborators";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
-import MarsEntryDescent from "./pages/MarsEntryDescent";
+import EntryDescent from "./pages/EntryDescent";
 import ReusableLaunchVehicles from "./pages/ReusableLaunchVehicles";
 import MorphingWing from "./pages/MorphingWing";
 import CollaborativeSystems from "./pages/CollaborativeSystems";
@@ -65,7 +65,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/projects/mars-entry-descent" element={<MarsEntryDescent />} />
+          <Route path="/projects/mars-entry-descent" element={<EntryDescent />} />
           <Route path="/projects/reusable-launch-vehicles" element={<ReusableLaunchVehicles />} />
           <Route path="/projects/morphing-wing" element={<MorphingWing />} />
           <Route path="/projects/collaborative-systems" element={<CollaborativeSystems />} />

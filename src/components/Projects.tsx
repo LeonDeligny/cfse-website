@@ -26,7 +26,7 @@ const Projects = () => {
       industry: "Civil Aviation"
     },
     {
-      title: "Mars Entry and Descent System",
+      title: "Entry and Descent Systems",
       category: "Aerothermodynamics",
       description: "Simulation on several points along the trajectory on the descent to Mars. Reconstructing wind tunnel tests. Perform dynamic stability analysis of the transonic inflatable breaking unit.",
       technologies: ["CFD", "Heat Transfer", "Static and Dynamic Stability"],
@@ -46,8 +46,8 @@ const Projects = () => {
     {
       title: "Collaborative Systems of Systems",
       category: "Aerodynamics",
-      description: "COLOSSUS is developing a novel system-of-systems design methodology to optimize aircraft, their operations, and business models simultaneously. The project will apply this method to intermodal transport and wildfire-fighting, and then openly publish its solutions, methods, and tools to benefit research and industry.",
-      technologies: ["Wildfire aircrafts Stability", "Shape Optimization"],
+      description: "COLOSSUS is developing a novel system-of-systems design methodology to optimize aircraft, their operations, and business models simultaneously. The project will apply this method to intermodal transport and wildfire-fighting.",
+      technologies: ["Stability of Wildfire aircrafts", "Shape Optimization", "Surrogate Model"],
       icon: Network,
       status: "Ongoing",
       industry: "Civil Aviation"
@@ -65,7 +65,7 @@ const Projects = () => {
       title: "Software Development",
       category: "In house software development",
       description: "Development and maintenance of advanced engineering software tools for simulation, visualization and design (CFD solvers, mesh generators...). Our work supports both internal research and external client projects, ensuring robust, scalable, and user-friendly solutions for the aerospace and industrial sectors.",
-      technologies: ["NSMB Solver", "Baspl3", "CEASIOMpy"],
+      technologies: ["NSMB Solver", "Baspl3", "b2000++", "CEASIOMpy"],
       icon: Factory,
       status: "Ongoing",
       industry: "In house software development"
@@ -161,7 +161,7 @@ const Projects = () => {
                   className="text-xs p-2 group-hover:text-primary transition-smooth"
                   onClick={() => {
                     switch (project.title) {
-                      case "Mars Entry and Descent System":
+                      case "Entry and Descent Systems":
                         navigate("/projects/mars-entry-descent");
                         break;
                       case "Re-usable Launch Vehicles":
@@ -247,7 +247,7 @@ const Projects = () => {
               >
                 ×
               </button>
-              <h3 className="text-xl font-bold mb-4 text-primary">Mars Entry and Descent System</h3>
+              <h3 className="text-xl font-bold mb-4 text-primary">Entry and Descent Systems</h3>
               <p className="text-gray-800 whitespace-pre-line">{marsDescription}</p>
             </div>
           </div>
