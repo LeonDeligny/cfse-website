@@ -10,12 +10,12 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: path.resolve(__dirname, 'wp-content/themes/cfse-website/dist'),
+    outDir: "dist",
     emptyOutDir: true,
     manifest: true,
     rollupOptions: {
       input: path.resolve(__dirname, 'index.html')
     }
   },
-  base: '/wp-content/themes/cfse-website/dist/'
+  base: '/wp-content/themes/cfse-react/'
 })
