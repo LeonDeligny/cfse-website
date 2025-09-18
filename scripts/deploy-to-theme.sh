@@ -31,20 +31,25 @@ fi
 
 command -v rsync >/dev/null 2>&1 || { echo "rsync required but not found"; exit 1; }
 
-mkdir -p "$THEME_DIR"
+# Ensure dist is in the theme directory before syncing
+if [ "$BUILD_DIR" != "$THEME_DIR/$BUILD_DIR" ]; then
+  echo "Moving build output to theme directory..."
+  rm -rf "$THEME_DIR/$BUILD_DIR"
+  mv "$BUILD_DIR" "$THEME_DIR/"
+fi
 
 TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
 
 echo "Copying build to temporary directory..."
-rsync -a --delete --partial "$BUILD_DIR/" "$TMPDIR/" || { echo "rsync -> tmp failed"; exit 1; }
+rsync -a --delete --partial "$THEME_DIR/$BUILD_DIR/" "$TMPDIR/" || { echo "rsync -> tmp failed"; exit 1; }
 
 echo "Syncing temporary copy to theme folder..."
 rsync -a --delete "$TMPDIR/" "$THEME_DIR/" || { echo "rsync -> theme failed"; exit 1; }
 
 # optional cleanup of local build if we produced it
 if [ "$BUILD_PERFORMED" -eq 1 ]; then
-  rm -rf "$BUILD_DIR"
+  rm -rf "$THEME_DIR/$BUILD_DIR"
 fi
 
 if command -v sudo >/dev/null 2>&1 && sudo -n true 2>/dev/null; then
