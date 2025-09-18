@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * Minimal index for cfse-website theme.
  */
