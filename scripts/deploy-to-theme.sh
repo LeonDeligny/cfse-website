@@ -5,6 +5,10 @@ THEME_DIR="/wp-content/themes/cfse-website"
 
 cd "$REPO_DIR"
 
+# install & build (server may need --legacy-peer-deps)
+npm ci --legacy-peer-deps
+npm run build -- --base /wp-content/themes/cfse-website/
+
 # copy build into theme root (manifest and assets must live at theme root)
 cp -a dist/. "$THEME_DIR/"
 
