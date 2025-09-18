@@ -6,3 +6,175 @@ Description: React SPA theme for CFSE
 Version:    1.0
 Text Domain: cfse-website
 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CFS Engineering Design System - Professional Engineering Aesthetic */
+
+@layer base {
+  :root {
+    /* Primary Brand Colors - Professional Engineering Blues */
+    --primary: 210 100% 25%;
+    --primary-foreground: 210 40% 98%;
+    --primary-light: 210 100% 35%;
+    --primary-dark: 210 100% 15%;
+    
+    /* Technical Accent Colors */
+    --accent-blue: 200 100% 40%;
+    --accent-cyan: 180 100% 45%;
+    --accent-steel: 210 15% 55%;
+    
+    /* Base System */
+    --background: 0 0% 100%;
+    --foreground: 210 20% 10%;
+
+    /* Card & UI Elements */
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 10%;
+    --card-border: 210 25% 90%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 10%;
+
+    /* Secondary Colors */
+    --secondary: 210 30% 96%;
+    --secondary-foreground: 210 20% 15%;
+
+    /* Muted Colors */
+    --muted: 210 25% 95%;
+    --muted-foreground: 210 15% 45%;
+
+    /* Accent System */
+    --accent: hsl(var(--accent-blue));
+    --accent-foreground: 210 40% 98%;
+
+    /* Status Colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --success: 120 60% 40%;
+    --success-foreground: 210 40% 98%;
+
+    /* Borders & Inputs */
+    --border: 210 25% 88%;
+    --input: 210 25% 92%;
+    --ring: hsl(var(--primary));
+
+    /* Design System Variables */
+    --radius: 0.75rem;
+    
+    /* Gradients - Engineering Professional */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent-blue)) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
+    
+    /* Shadows - Professional Engineering */
+    --shadow-sm: 0 2px 8px -2px hsl(var(--primary) / 0.1);
+    --shadow-md: 0 8px 24px -4px hsl(var(--primary) / 0.15);
+    --shadow-lg: 0 16px 40px -8px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 32px hsl(var(--accent-blue) / 0.3);
+    
+    /* Transitions */
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode - Engineering Professional */
+    --background: 210 25% 8%;
+    --foreground: 210 25% 95%;
+
+    --card: 210 25% 10%;
+    --card-foreground: 210 25% 95%;
+    --card-border: 210 25% 20%;
+
+    --popover: 210 25% 10%;
+    --popover-foreground: 210 25% 95%;
+
+    /* Primary adjusted for dark */
+    --primary: 210 100% 55%;
+    --primary-foreground: 210 25% 8%;
+    --primary-light: 210 100% 65%;
+    --primary-dark: 210 100% 45%;
+
+    --secondary: 210 25% 15%;
+    --secondary-foreground: 210 25% 90%;
+
+    --muted: 210 25% 18%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: hsl(var(--accent-cyan));
+    --accent-foreground: 210 25% 8%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 210 25% 95%;
+    --success: 120 50% 50%;
+    --success-foreground: 210 25% 8%;
+
+    --border: 210 25% 20%;
+    --input: 210 25% 15%;
+    --ring: hsl(var(--primary));
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  /* Engineering-focused utility classes */
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-spring {
+    transition: var(--transition-spring);
+  }
+}
