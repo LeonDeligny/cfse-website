@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+
 import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
@@ -17,5 +18,5 @@ export default defineConfig({
       input: path.resolve(__dirname, 'index.html')
     }
   },
-  base: '/wp-content/themes/cfse-react/'
+  base: '/'
 })

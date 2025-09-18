@@ -1,15 +1,16 @@
-// ...existing code...
-import { React, useEffect, useState } from "react";
+import { useEffect, useState, type ComponentProps } from "react";
 import { Toaster as Sonner, toast } from "sonner";
 
-type ToasterProps = React.ComponentProps<typeof Sonner>;
+type ToasterProps = ComponentProps<typeof Sonner>;
 
 function usePreferredTheme() {
   const [theme, setTheme] = useState<"light" | "dark" | "system">(() => {
     if (typeof window === "undefined") return "system";
     return window.matchMedia?.("(prefers-color-scheme: dark)")?.matches ? "dark" : "light";
   });
+
   useEffect(() => {
+    if (typeof window === "undefined") return;
     const mq = window.matchMedia("(prefers-color-scheme: dark)");
     const onChange = (e: MediaQueryListEvent) => setTheme(e.matches ? "dark" : "light");
     if (mq.addEventListener) mq.addEventListener("change", onChange);
@@ -19,6 +20,7 @@ function usePreferredTheme() {
       else mq.removeListener(onChange);
     };
   }, []);
+
   return { theme };
 }
 
