@@ -18,7 +18,7 @@ BUILD_PERFORMED=0
 if command -v npm >/dev/null 2>&1; then
   echo "Running npm ci and build..."
   npm ci --legacy-peer-deps
-  npm run build -- --base "$BASE_PATH"
+  npm run build -- --base
   BUILD_PERFORMED=1
 else
   echo "npm not found — ensure $BUILD_DIR/ exists in the repo before running."
