@@ -5,6 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="${1:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 PLUGIN="${PLUGIN:-cfse-website}"
 WP_PLUGINS="${2:-${WP_PLUGINS:-/home/clients/bf34dad1d93f6c3f3d631220de829f6c3f3d631220de829f6c3f3d631220de829fda/web/wp-content/plugins}}"
+BUILD_DIR="dist"
 
 echo "Repo: $REPO_DIR"
 echo "Plugin name: $PLUGIN"
@@ -24,9 +25,18 @@ fi
 
 TARGET_DIR="$WP_PLUGINS/$PLUGIN"
 
-# ensure build exists
-if [ ! -d "dist" ]; then
-  echo "Error: dist/ not found in $REPO_DIR — run npm run build first" >&2
+BUILD_PERFORMED=0
+if command -v npm >/dev/null 2>&1; then
+  echo "Running npm ci and build..."
+  npm ci --legacy-peer-deps
+  npm run build -- --base "$BASE_PATH"
+  BUILD_PERFORMED=1
+else
+  echo "npm not found — ensure $BUILD_DIR/ exists in the repo before running."
+fi
+
+if [ ! -d "$BUILD_DIR" ]; then
+  echo "Error: build directory '$BUILD_DIR' not found in $REPO_DIR" >&2
   exit 1
 fi
 
