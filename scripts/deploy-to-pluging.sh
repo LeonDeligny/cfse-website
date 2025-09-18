@@ -24,18 +24,6 @@ fi
 
 TARGET_DIR="$WP_PLUGINS/$PLUGIN"
 
-# If repo is already the target plugin directory, skip creating/copying
-if [ "$TARGET_DIR" != "$REPO_DIR" ]; then
-  if ! mkdir -p "$TARGET_DIR" 2>/dev/null; then
-    echo "Cannot create target plugin directory: $TARGET_DIR" >&2
-    echo "Run with a writable WP_PLUGINS path or with sudo." >&2
-    exit 1
-  fi
-  cp -f "$PLUGIN_PHP_SRC" "$TARGET_DIR/$PLUGIN.php"
-else
-  echo "Repo is the plugin target ($REPO_DIR). Skipping plugin file copy."
-fi
-
 # ensure build exists
 if [ ! -d "dist" ]; then
   echo "Error: dist/ not found in $REPO_DIR — run npm run build first" >&2
