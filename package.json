@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "postinstall": "npm run build && mkdir -p ./dist/assets && (cp ./style.css ./functions.php ./index.php ./dist/ || true)",
+    "postinstall": "npm run dev",
     "lint": "eslint .",
     "preview": "vite preview"
   },
