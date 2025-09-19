@@ -30,20 +30,6 @@ fi
 
 TARGET_DIR="$WP_PLUGINS/$PLUGIN"
 
-# If target differs from repo, ensure target directory exists and is creatable
-if [ "$TARGET_DIR" != "$REPO_DIR" ]; then
-  if ! mkdir -p "$TARGET_DIR" 2>/dev/null; then
-    echo "Cannot create target plugin directory: $TARGET_DIR" >&2
-    echo "Options:" >&2
-    echo "  - Run with a writable WP_PLUGINS path: WP_PLUGINS=/path/to/wp/wp-content/plugins ./scripts/deploy-to-pluging.sh" >&2
-    echo "  - Or run the script with sudo if allowed: sudo WP_PLUGINS=$WP_PLUGINS ./scripts/deploy-to-pluging.sh" >&2
-    exit 1
-  fi
-  cp -f "$PLUGIN_PHP_SRC" "$TARGET_DIR/$PLUGIN.php"
-else
-  echo "Repo is the plugin target ($REPO_DIR). Skipping plugin file copy."
-fi
-
 # Build if possible
 BUILD_PERFORMED=0
 if command -v npm >/dev/null 2>&1; then
