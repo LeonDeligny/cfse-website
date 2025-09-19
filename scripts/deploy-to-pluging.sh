@@ -48,7 +48,7 @@ ls -ld "$TARGET_DIR" "$TARGET_DIR/dist" 2>/dev/null || true
 stat -c "%U %G %a %n" "$TARGET_DIR" "$TARGET_DIR/dist" 2>/dev/null || true
 
 # test if you can create a file there
-touch "$TARGET_DIR/dist/.deploy-test" 2>/dev/null && echo "write ok" || echo "cannot write to $TARGET/dist"
+touch "$TARGET_DIR/dist/.deploy-test" 2>/dev/null && echo "write ok" || echo "cannot write to $TARGET_DIR/dist"
 rm -f "$TARGET_DIR/dist/.deploy-test" 2>/dev/null || true
 
 rsync -av --delete --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r \
