@@ -41,6 +41,16 @@ if [ ! -d "$BUILD_DIR" ]; then
   exit 1
 fi
 
+echo "target: $TARGET_DIR"
+ls -ld "$TARGET_DIR" "$TARGET_DIR/dist" 2>/dev/null || true
+
+# show owner/perm info
+stat -c "%U %G %a %n" "$TARGET_DIR" "$TARGET_DIR/dist" 2>/dev/null || true
+
+# test if you can create a file there
+touch "$TARGET_DIR/dist/.deploy-test" 2>/dev/null && echo "write ok" || echo "cannot write to $TARGET/dist"
+rm -f "$TARGET_DIR/dist/.deploy-test" 2>/dev/null || true
+
 rsync -av --delete --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r \
   --exclude='node_modules/' --exclude='.git/' --exclude='src/' --exclude='public/' \
   ./dist/ "$TARGET_DIR/dist/" || { echo "rsync failed"; exit 1; }
